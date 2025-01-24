@@ -66,11 +66,11 @@ let handler = async (m, { conn }) => {
             cooldowns[userId] = now + 30 * 60 * 1000;
 
         } catch (error) {
-            await conn.reply(m.chat, `✘ Error al reclamar el personaje: ${error.message}`, m);
+            await conn.reply(m.chat, `🐻 Error al reclamar el personaje: ${error.message}`, m);
         }
 
     } else {
-        await conn.reply(m.chat, '《✧》Debes citar un personaje válido para reclamar.', m);
+        await conn.reply(m.chat, '🌻 Debes citar un personaje válido para reclamar.', m);
     }
 };
 
