@@ -46,12 +46,12 @@ global.packsticker2 = `━━━━━━━━♾\n⪛✰ 𝐘𝐮𝐤𝐢-𝐒
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = 'Masha-Kujou-Bot'
+global.packname = 'mᥲsһᥲ-kᥙȷ᥆ᥙ-ᑲ᥆𝗍'
 global.botname = 'Maria Mikhailovna Kujou'
 global.wm = 'Masha Kujou'
 global.author = 'Made By Legna'
-global.dev = '© ᥱძі𝗍᥆r ᑲᥡ ᥣᥱgᥒᥲ'
-global.textbot = 'mᥲsһᥲ kᥙȷ᥆ᥙ : © ᥱძі𝗍᥆r ᑲᥡ ᥣᥱgᥒᥲ'
+global.dev = 'Legna'
+global.textbot = 'Masha Kujou : Legna'
 global.numcreador = '5216671548329'
 global.moneda = 'Coins'
 global.welcom1 = 'Edita Con #setwelcome'
