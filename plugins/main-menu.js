@@ -23,7 +23,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Info-Bot\` •/•
 
-🐻 Comandos para ver estado e información de la Bot.
+ ❀ Comandos para ver estado e información de la Bot.
 ᰔᩚ *#help • #menu*
 > ✦ Ver la lista de comandos de la Bot.
 ᰔᩚ *#uptime • #runtime*
@@ -65,7 +65,7 @@ let handler = async (m, { conn, args }) => {
 ᰔᩚ *#editautoresponder*
 > ✦ Configurar un Prompt personalizado de la Bot.
 
-✐  •/• \`Buscadores\` •/•
+ ❀  •/• \`Buscadores\` •/•
 
 🌻 Comandos para realizar búsquedas en distintas plataformas.
 ᰔᩚ *#tiktoksearch • #tiktoks*
