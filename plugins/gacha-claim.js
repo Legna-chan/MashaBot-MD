@@ -39,7 +39,7 @@ let handler = async (m, { conn }) => {
             const characterIdMatch = m.quoted.text.match(/ID: \*(.+?)\*/);
 
             if (!characterIdMatch) {
-                await conn.reply(m.chat, '《✧》No se pudo encontrar el ID del personaje en el mensaje citado.', m);
+                await conn.reply(m.chat, '🐻 No se pudo encontrar el ID del personaje en el mensaje citado.', m);
                 return;
             }
 
@@ -52,7 +52,7 @@ let handler = async (m, { conn }) => {
             }
 
             if (character.user && character.user !== userId) {
-                await conn.reply(m.chat, `《✧》El personaje ya ha sido reclamado por @${character.user.split('@')[0]}, inténtalo a la próxima :v.`, m, { mentions: [character.user] });
+                await conn.reply(m.chat, `🌻 El personaje ya ha sido reclamado por @${character.user.split('@')[0]}, inténtalo a la próxima :3`, m, { mentions: [character.user] });
                 return;
             }
 
