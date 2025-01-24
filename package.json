@@ -24,10 +24,10 @@
 },
 "repository": {
 "type": "git",
-"url": ""
+"url": "https://github.com/Legna-chan/MashaBot-MD"
 },
 "bugs": {
-"url": "https://github.com/The-King-Destroy/Yuki_Suou-Bot/issues"
+"url": "https://github.com/Legna-chan/MashaBot-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
