@@ -14,11 +14,11 @@ let handler = async (m, { conn, args }) => {
   let txt = `
 𝙷𝚘𝚕𝚊! 𝚋𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚖𝚎𝚗𝚞 𝚍𝚎 *${botname}*
 ╭─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒
-│🌾 Cliente » @${userId.split('@')[0]}
-│🧸 ${moneda} » ${coins}
-│🦋 Experiencia » ${exp.toLocaleString()}
-│🌟 Nivel » ${nivel}
-│⚜️ Rango » ${role}
+│ ❀ Cliente » @${userId.split('@')[0]}
+│ ❀ ${moneda} » ${coins}
+│ ❀ Experiencia » ${exp.toLocaleString()}
+│ ❀ Nivel » ${nivel}
+│ ❀ Rango » ${role}
 │${dev}
 ╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒
 
