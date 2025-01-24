@@ -1,11 +1,11 @@
 import { exec } from 'child_process';
 
 let handler = async (m, { conn }) => {
-  m.reply('🌼 Actualizando el bot...');
+  m.reply('✿ Actualizando el bot...');
 
   exec('git pull', (err, stdout, stderr) => {
     if (err) {
-      conn.reply(m.chat, `🌻 Error: No se pudo realizar la actualización.\nRazón: ${err.message}`, m);
+      conn.reply(m.chat, `✿ Error: No se pudo realizar la actualización.\nRazón: ${err.message}`, m);
       return;
     }
 
@@ -14,9 +14,9 @@ let handler = async (m, { conn }) => {
     }
 
     if (stdout.includes('Already up to date.')) {
-      conn.reply(m.chat, '🐻 La bot ya está actualizada.', m);
+      conn.reply(m.chat, '✰ La bot ya está actualizada.', m);
     } else {
-      conn.reply(m.chat, `🌻 Actualización realizada con éxito.\n\n${stdout}`, m);
+      conn.reply(m.chat, `ꕥ Actualización realizada con éxito.\n\n${stdout}`, m);
     }
   });
 };
