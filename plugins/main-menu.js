@@ -11,14 +11,14 @@ let handler = async (m, { conn, args }) => {
 
   let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
 
-  let txt = `
+  let txt = `>
 𝙷𝚘𝚕𝚊! 𝚋𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚖𝚎𝚗𝚞 𝚍𝚎 *${botname}*
 ╭─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒
-│ 🍨 Cliente » @${userId.split('@')[0]}
-│ 🦋 ${moneda} » ${coins}
-│ 🧸 Experiencia » ${exp.toLocaleString()}
-│ 🌻 Nivel » ${nivel}
-│ 🍦 Rango » ${role}
+│ ❀ Cliente » @${userId.split('@')[0]}
+│ ✰ ${moneda} » ${coins}
+│ ꕥ Experiencia » ${exp.toLocaleString()}
+│ ✤ Nivel » ${nivel}
+│ 🜲 Rango » ${role}
 │${dev}
 ╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒
 
