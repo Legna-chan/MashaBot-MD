@@ -22,7 +22,7 @@ let handler = async (m, { conn, args }) => {
 │${dev}
 ╰─────────────────
 
-»  ⊹˚• \`Info-Bot\` •˚⊹
+»  •/• \`Info-Bot\` •/•
 
 🐻 Comandos para ver estado e información de la Bot.
 ᰔᩚ *#help • #menu*
