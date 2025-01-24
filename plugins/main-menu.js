@@ -20,7 +20,7 @@ let handler = async (m, { conn, args }) => {
 │🌟 Nivel » ${nivel}
 │⚜️ Rango » ${role}
 │${dev}
-╰─────────────────
+╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒
 
 ✐  •/• \`Info-Bot\` •/•
 
