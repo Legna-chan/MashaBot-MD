@@ -46,7 +46,7 @@ global.packsticker2 = `━━━━━━━━♾\n⪛✰ 𝐘𝐮𝐤𝐢-𝐒
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⏤͟͟͞͞🐻𝐌𝐀𝐒𝐇𝐀ᵇᵒᵗ ᥫ᭡'
+global.packname = '⏤͟͟͞͞🧡𝐌𝐀𝐒𝐇𝐀ᵇᵒᵗ ᥫ᭡'
 global.botname = 'Maria Mikhailovna Kujou'
 global.wm = 'Masha Kujou'
 global.author = 'Made By Legna'
