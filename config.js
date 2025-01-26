@@ -33,8 +33,8 @@ global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '2.1.5'
 global.vsJB = '5.0'
-global.nameqr = 'Masha - kujou - Bot'
-global.namebot = '✿◟mᥲsһᥲ-kᥙȷ᥆ᥙ◞✿'
+global.nameqr = 'Sagiri - Izumi - Bot'
+global.namebot = '✿◟Sagiri-izumi◞✿'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
@@ -46,12 +46,12 @@ global.packsticker2 = `━━━━━━━━♾\n⪛✰ 𝑴𝑨𝑺𝑯𝑨-
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = 'Sagiri Izumi'
+global.packname = 'SagiriBot-MD'
 global.botname = 'Sagiri Izumi'
 global.wm = 'Sagiri Izumi'
 global.author = 'Made By Legna'
 global.dev = 'Powered By Legna'
-global.textbot = 'Sagiri Izumi : Legna'
+global.textbot = '❀ sᥲgіrі іzᥙmі ᑲᥡ : ᥣᥱgᥒᥲ ❀'
 global.numcreador = '5216671548329'
 global.moneda = 'Coins'
 global.welcom1 = 'Edita Con #setwelcome'
