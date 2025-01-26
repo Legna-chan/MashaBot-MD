@@ -21,7 +21,7 @@ return conn.reply(m.chat, `🍡 Solo puedes usar este comando en el bot principa
 }
 async function serbot() {
 let serbotFolder = crypto.randomBytes(10).toString('hex').slice(0, 8)
-let folderSub = `./SagiriJadiBot/${serbotFolder}`
+let folderSub = `./YukiJadiBot/${serbotFolder}`
 if (!fs.existsSync(folderSub)) {
 fs.mkdirSync(folderSub, { recursive: true })
 }
@@ -34,7 +34,7 @@ const { version } = await fetchLatestBaileysVersion()
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Sagiri Sub-Bot', 'Edge', '2.0.0'],
+browser: ['Yuki Sub-Bot', 'Edge', '2.0.0'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -102,7 +102,7 @@ if (i >= 0) {
 delete global.conns[i]
 global.conns.splice(i, 1)
 }
-fs.rmdirSync(`./SagiriJadiBot/${serbotFolder}`, { recursive: true })
+fs.rmdirSync(`./YukiJadiBot/${serbotFolder}`, { recursive: true })
 }
 }, 30000)
 let handler = await import("../handler.js")
