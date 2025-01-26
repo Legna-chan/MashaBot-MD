@@ -52,7 +52,7 @@ let handler = async (m, { conn, args }) => {
                 const timeLeft = expirationTime - now;
                 const minutes = Math.floor((timeLeft / 1000 / 60) % 60);
                 const seconds = Math.floor((timeLeft / 1000) % 60);
-                await conn.reply(m.chat, `《✧》Debes esperar *${Math.floor(minutes)} minutos ${seconds} segundos* para usar *#vote* de nuevo.`, m);
+                await conn.reply(m.chat, '🍡 Debes esperar *${Math.floor(minutes)} minutos ${seconds} segundos* para usar *#vote* de nuevo.`, m);
                 return;
             }
         }
