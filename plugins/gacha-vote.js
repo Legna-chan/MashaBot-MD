@@ -69,7 +69,7 @@ let handler = async (m, { conn, args }) => {
         const character = characters.find(c => c.name.toLowerCase() === originalCharacterName.toLowerCase());
 
         if (!character) {
-            await conn.reply(m.chat, '《✧》Personaje no encontrado. Asegúrate de que el nombre esté en el formato correcto.', m);
+            await conn.reply(m.chat, '🪷 Personaje no encontrado. Asegúrate de que el nombre esté en el formato correcto.', m);
             return;
         }
 
