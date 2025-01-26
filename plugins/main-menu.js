@@ -506,8 +506,7 @@ let handler = async (m, { conn, args }) => {
       text: txt,
       contextInfo: {
           mentionedJid: [m.sender, userId],
-          isForwarded: true,
-          forwardedNewsletterMessageInfo: {
+          false: {
               newsletterJid: channelRD.id,
               newsletterName: channelRD.name,
               serverMessageId: -1,
