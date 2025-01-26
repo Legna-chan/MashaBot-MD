@@ -66,16 +66,16 @@ global.emoji4 = '🍭'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🌼 Espera un momento, soy lenta...';
-global.waitt = '🌼 Espera un momento, soy lenta...';
-global.waittt = '🌼 Espera un momento, soy lenta...';
-global.waitttt = '🌼 Espera un momento, soy lenta...';
+global.wait = ' Espera un momento, soy lenta...';
+global.waitt = '🪷 Espera un momento, soy lenta...';
+global.waittt = '🪷 Espera un momento, soy lenta...';
+global.waitttt = '🪷 Espera un momento, soy lenta...';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'  
-let canal2 = 'https://whatsapp.com/channel/0029VavzewJLikg78gILRn1o'
-var git = 'https://github.com/The-King-Destroy'
-var github = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot' 
+var canal = 'https://whatsapp.com/channel/0029Vb3yy64LI8YSrvdyq00R'  
+let canal2 = ''
+var git = 'https://github.com/Legna-chan/SagiriBot-MD'
+var github = 'https://github.com/Legna-chan/SagiriBot-MD' 
 let correo = 'legnakujou@gmail.com'
 
 global.redes = [canal, canal2, git, github, correo].getRandom()
