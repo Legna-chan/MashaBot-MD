@@ -2,11 +2,11 @@ import fetch from 'node-fetch';
 
 var handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) {
-        return conn.reply(m.chat, '✿ Por favor, ingresa un enlace de TikTok.', m);
+        return conn.reply(m.chat, '🍡 Por favor, ingresa un enlace de TikTok.', m);
     }
 
     try {
-        await conn.reply(m.chat, "✿ Espere un momento, estoy descargando su video...", m);
+        await conn.reply(m.chat, "🪷 Espere un momento, estoy descargando su video...", m);
 
         const tiktokData = await tiktokdl(args[0]);
 
@@ -17,7 +17,7 @@ var handler = async (m, { conn, args, usedPrefix, command }) => {
         const videoURL = tiktokData.data.play;
 
         if (videoURL) {
-            await conn.sendFile(m.chat, videoURL, "tiktok.mp4", "❋ Aquí tienes ฅ^•ﻌ•^ฅ", m);
+            await conn.sendFile(m.chat, videoURL, "tiktok.mp4", "🍡 Aquí tienes tu video de tiktok.", m);
         } else {
             return conn.reply(m.chat, "No se pudo descargar.", m);
         }
