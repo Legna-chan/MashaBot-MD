@@ -8,7 +8,7 @@ async function loadCharacters() {
         const data = await fs.readFile(charactersFilePath, 'utf-8');
         return JSON.parse(data);
     } catch (error) {
-        throw new Error('🪷 No se pudo cargar el archivo characters.json.');
+        throw new Error('《✧》No se pudo cargar el archivo characters.json.');
     }
 }
 
@@ -16,7 +16,7 @@ async function saveCharacters(characters) {
     try {
         await fs.writeFile(charactersFilePath, JSON.stringify(characters, null, 2));
     } catch (error) {
-        throw new Error('🪷 No se pudo guardar el archivo characters.json.');
+        throw new Error('《✧》No se pudo guardar el archivo characters.json.');
     }
 }
 
@@ -33,7 +33,7 @@ async function saveHarem(harem) {
     try {
         await fs.writeFile(haremFilePath, JSON.stringify(harem, null, 2));
     } catch (error) {
-        throw new Error('🪷 No se pudo guardar el archivo harem.json.');
+        throw new Error('《✧》No se pudo guardar el archivo harem.json.');
     }
 }
 
@@ -52,7 +52,7 @@ let handler = async (m, { conn, args }) => {
                 const timeLeft = expirationTime - now;
                 const minutes = Math.floor((timeLeft / 1000 / 60) % 60);
                 const seconds = Math.floor((timeLeft / 1000) % 60);
-                await conn.reply(m.chat, '🍡 Debes esperar *${Math.floor(minutes)} minutos ${seconds} segundos* para usar *#vote* de nuevo.`, m);
+                await conn.reply(m.chat, `《✧》Debes esperar *${Math.floor(minutes)} minutos ${seconds} segundos* para usar *#vote* de nuevo.`, m);
                 return;
             }
         }
@@ -69,7 +69,7 @@ let handler = async (m, { conn, args }) => {
         const character = characters.find(c => c.name.toLowerCase() === originalCharacterName.toLowerCase());
 
         if (!character) {
-            await conn.reply(m.chat, '🪷 Personaje no encontrado. Asegúrate de que el nombre esté en el formato correcto.', m);
+            await conn.reply(m.chat, '《✧》Personaje no encontrado. Asegúrate de que el nombre esté en el formato correcto.', m);
             return;
         }
 
@@ -106,9 +106,9 @@ let handler = async (m, { conn, args }) => {
         cooldowns.set(userId, Date.now());
         characterVotes.set(originalCharacterName, Date.now() + cooldownTime);
 
-        await conn.reply(m.chat, `🍡 Votaste por el personaje *${originalCharacterName}*\n> Su nuevo valor es *${character.value}* (incrementado en *${incrementValue}*)\n> Total de votos: *${character.votes}*`, m);
+        await conn.reply(m.chat, `✰ Votaste por el personaje *${originalCharacterName}*\n> Su nuevo valor es *${character.value}* (incrementado en *${incrementValue}*)\n> Total de votos: *${character.votes}*`, m);
     } catch (e) {
-        await conn.reply(m.chat, `🪷 Error al actualizar el valor: ${e.message}`, m);
+        await conn.reply(m.chat, `✘ Error al actualizar el valor: ${e.message}`, m);
     }
 };
 
