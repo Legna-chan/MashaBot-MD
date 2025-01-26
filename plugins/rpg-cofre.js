@@ -1,6 +1,6 @@
 const handler = async (m, { isPrems, conn }) => {
   if (!global.db.data.users[m.sender]) {
-    throw `🍬 Usuario no encontrado.`;
+    throw `🍡 Usuario no encontrado.`;
   }
 
   const lastCofreTime = global.db.data.users[m.sender].lastcofre;
@@ -8,7 +8,7 @@ const handler = async (m, { isPrems, conn }) => {
 
   if (Date.now() < timeToNextCofre) {
     const tiempoRestante = timeToNextCofre - Date.now();
-    const mensajeEspera = `🍬 Ya reclamaste tu cofre\n⏰️ Regresa en: *${msToTime(tiempoRestante)}* para volver a reclamar.`;
+    const mensajeEspera = `🍡 Ya reclamaste tu cofre\n⏰️ Regresa en: *${msToTime(tiempoRestante)}* para volver a reclamar.`;
     await conn.sendMessage(m.chat, { text: mensajeEspera }, { quoted: m });
     return;
   }
@@ -26,12 +26,12 @@ const handler = async (m, { isPrems, conn }) => {
   global.db.data.users[m.sender].lastcofre = Date.now();
 
   const texto = `
-╭━〔 Cσϝɾҽ Aʅҽαƚσɾισ 〕⬣
+╭━〔 Cofre aleatorio 〕⬣
 ┃📦 *Obtienes Un Cofre*
 ┃ ¡Felicidades!
 ╰━━━━━━━━━━━━⬣
 
-╭━〔 Nυҽʋσʂ Rҽƈυɾʂσʂ 〕⬣
+╭━〔 Nuevos recursos 〕⬣
 ┃ *${dia} ${moneda}* 💸
 ┃ *${tok} Tokens* ⚜️
 ┃ *${ai} Diamantes* 💎
@@ -41,7 +41,7 @@ const handler = async (m, { isPrems, conn }) => {
   try {
     await conn.sendFile(m.chat, img, 'yuki.jpg', texto);
   } catch (error) {
-    throw `⚠️ Ocurrió un error al enviar el cofre.`;
+    throw `🍡 Ocurrió un error al enviar el cofre.`;
   }
 };
 
