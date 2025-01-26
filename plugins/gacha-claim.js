@@ -30,7 +30,7 @@ let handler = async (m, { conn }) => {
         const remainingTime = Math.ceil((cooldowns[userId] - now) / 1000);
         const minutes = Math.floor(remainingTime / 60);
         const seconds = remainingTime % 60;
-        return await conn.reply(m.chat, `?🍡 Debes esperar *${minutes} minutos y ${seconds} segundos* para usar *#c* de nuevo.`, m);
+        return await conn.reply(m.chat, '🍡 Debes esperar *${minutes} minutos y ${seconds} segundos* para usar *#c* de nuevo.`, m);
     }
 
     if (m.quoted && m.quoted.sender === conn.user.jid) {
