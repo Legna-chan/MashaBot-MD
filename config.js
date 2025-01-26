@@ -46,17 +46,17 @@ global.packsticker2 = `━━━━━━━━♾\n⪛✰ 𝑴𝑨𝑺𝑯𝑨-
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = 'Masha Kujou'
-global.botname = 'Maria Mikhailovna Kujou'
-global.wm = 'Masha Kujou'
+global.packname = 'Sagiri Izumi'
+global.botname = 'Sagiri Izumi'
+global.wm = 'Sagiri Izumi'
 global.author = 'Made By Legna'
 global.dev = 'Powered By Legna'
-global.textbot = 'Masha Kujou : Legna'
+global.textbot = 'Sagiri Izumi : Legna'
 global.numcreador = '5216671548329'
 global.moneda = 'Coins'
 global.welcom1 = 'Edita Con #setwelcome'
 global.welcom2 = 'Edita Con #setbye'
-global.banner = 'https://qu.ax/PPfyD.jpg'
+global.banner = 'https://qu.ax/CDsJY.jpg'
 global.catalogo = 'https://qu.ax/pzsRA.jpg'
 global.test = 'https://qu.ax/DPtHb.jpg'
 
