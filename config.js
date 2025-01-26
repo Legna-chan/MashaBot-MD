@@ -47,7 +47,7 @@ global.packsticker2 = `━━━━━━━━♾\n⪛✰ 𝑴𝑨𝑺𝑯𝑨-
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.packname = '🌸 sᥲgіrі 🌸'
-global.botname = 'sᥲgіrі-іzᥙmі-ᑲ᥆𝗍'
+global.botname = 'Sagiri Izumi'
 global.wm = 'Sagiri Izumi'
 global.author = 'Made By Legna'
 global.dev = 'Powered By Legna'
