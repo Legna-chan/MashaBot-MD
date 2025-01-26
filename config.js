@@ -57,7 +57,7 @@ global.moneda = 'Coins'
 global.welcom1 = 'Edita Con #setwelcome'
 global.welcom2 = 'Edita Con #setbye'
 global.banner = 'https://qu.ax/CDsJY.jpg'
-global.catalogo = 'https://qu.ax/pzsRA.jpg'
+global.catalogo = 'https://qu.ax/gREQS.jpg'
 global.test = 'https://qu.ax/DPtHb.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
