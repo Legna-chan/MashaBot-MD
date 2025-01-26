@@ -31,7 +31,7 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/5216671548329'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/5216671548329'
-global.namechannel = '✧ sᥲgіrі • gr᥆ᥙ⍴ ✧'
+global.namechannel = '✧ sᥲgіrі • ᥴһᥲᥒᥒᥱᥣ ✧'
 global.namechannel2 = '✧┊┋◟✿𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭✿◞┊┋✧"'
 global.namegrupo = '✰ sᥲgіrі • gr᥆ᥙ⍴ ✰'
 global.namecomu = '✿:･✧ 𝓨𝓾𝓴𝓲 𝓢𝓾𝓸𝓾 𝓒𝓸𝓶𝓾𝓷𝓲𝓽𝔂 ✧･:✿'
