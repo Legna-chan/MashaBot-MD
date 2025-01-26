@@ -1,6 +1,6 @@
 {
-"name": "Yuki_Suou-Bot",
-"version": "2.1.5",
+"name": "MashaBot-MD",
+"version": "1.0.0",
 "description": "Super WhatsApp Bot Multi Device",
 "main": "index.js",
 "type": "module",
@@ -18,16 +18,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/The-King-Destroy/Yuki_Suou-Bot",
+"homepage": "https://github.com/Legna-chan/MashaBot-MD",
 "author": {
-"name": "The-King-Destroy"
+"name": "Legna"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/The-King-Destroy/Yuki_Suou-Bot.git"
+"url": "https://github.com/Legna-chan/MashaBot-MD"
 },
 "bugs": {
-"url": "https://github.com/The-King-Destroy/Yuki_Suou-Bot/issues"
+"url": "https://github.com/Legna-chan/MashaBot-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {

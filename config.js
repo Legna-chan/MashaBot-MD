@@ -17,19 +17,13 @@ global.confirmCode = ''
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['584120346669', 'ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜', true],
-  ['5212441357601', '𝓔𝓶𝓶𝓪 𝓥𝓲𝓸𝓵𝓮𝓽𝓼 𝓥𝓮𝓻𝓼𝓲ó𝓷', true],
-  ['50557865603',  'Niño Piña', true],
-  ['5216671548329', '𝓛𝓮𝓰𝓷𝓪', true],
-  ['584148256527', 'Perrita diomar', true],
-  ['5212431268546', 'I\'m Fz (Tesis)', true],
-  ['584128382768']
+  ['5216671548329', 'Legna', true],
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.mods = ['50488198573', '584120515006', '51991055096', '573004828388', '573154062343']
-global.suittag = ['584120346669']
+global.mods = ['', '', '', '', '']
+global.suittag = ['']
 global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -39,8 +33,8 @@ global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '2.1.5'
 global.vsJB = '5.0'
-global.nameqr = 'Yuki Suou - Bot'
-global.namebot = '✿◟Yυƙι-Sυσυ-Bσƚ◞✿'
+global.nameqr = 'Masha - kujou - Bot'
+global.namebot = '✿◟mᥲsһᥲ-kᥙȷ᥆ᥙ◞✿'
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots' 
 global.yukiJadibts = true
@@ -52,14 +46,14 @@ global.packsticker2 = `━━━━━━━━♾\n⪛✰ 𝐘𝐮𝐤𝐢-𝐒
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = 'MashaBot-MD'
+global.packname = 'mᥲsһᥲ-kᥙȷ᥆ᥙ-ᑲ᥆𝗍'
 global.botname = 'Maria Mikhailovna Kujou'
 global.wm = 'Masha Kujou'
-global.author = 'Made By 🌻┋ŀ𝔢ᶢᶰᾰ ᥫ᭡፝֟፝֟'
-global.dev = '© ᥱძі𝗍᥆r ᑲᥡ 🌻┋ŀ𝔢ᶢᶰᾰ ᥫ᭡፝֟፝֟'
-global.textbot = 'mᥲsһᥲ kᥙȷ᥆ᥙ : © ᥱძі𝗍᥆r ᑲᥡ 🌻┋ŀ𝔢ᶢᶰᾰ ᥫ᭡፝֟፝֟'
-global.numcreador = '584120346669'
-global.moneda = 'Yenes'
+global.author = 'Made By Legna'
+global.dev = 'Poweredy By Legna'
+global.textbot = 'Masha Kujou : Legna'
+global.numcreador = '5216671548329'
+global.moneda = 'Coins'
 global.welcom1 = 'Edita Con #setwelcome'
 global.welcom2 = 'Edita Con #setbye'
 global.banner = 'https://qu.ax/PPfyD.jpg'
@@ -99,7 +93,7 @@ global.comunidad1 = 'https://chat.whatsapp.com/EwrwcGvpLf1BnMhP3B4axD'
 global.channel = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'
 global.channel2 = 'https://whatsapp.com/channel/0029VavzewJLikg78gILRn1o'
 global.md = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot'
-global.correo = 'thekingdestroy507@gmail.com'
+global.correo = 'legnakujou@gmail.com'
 global.cn ='https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*

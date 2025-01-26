@@ -30,7 +30,7 @@ console.log(`Error : ${e}`)
 //creador y otros
 global.creador = 'Wa.me/5216671548329'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/584120346669'
+global.asistencia = 'Wa.me/5216671548329'
 global.namechannel = '↫ Yυƙι-Sυσυ-Bσƚ Cԋαɳɳҽʅ ↬'
 global.namechannel2 = '✧┊┋◟✿𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭✿◞┊┋✧"'
 global.namegrupo = '.•♫•♬• ʏᴜᴋɪ-ꜱᴜᴏᴜ-ʙᴏᴛ  •♬•♫•.'
@@ -66,10 +66,10 @@ global.emoji4 = '🍭'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🌻 Espera un momento, soy lenta...';
-global.waitt = '🌻 Espera un momento, soy lenta...';
-global.waittt = '🌻 Espera un momento, soy lenta...';
-global.waitttt = '🌻 Espera un momento, soy lenta...';
+global.wait = '🌼 Espera un momento, soy lenta...';
+global.waitt = '🌼 Espera un momento, soy lenta...';
+global.waittt = '🌼 Espera un momento, soy lenta...';
+global.waitttt = '🌼 Espera un momento, soy lenta...';
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'  
