@@ -23,7 +23,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Info-Bot\` •/•
 
- 🐻 Comandos para ver estado e información de la Bot.
+ 🌸 Comandos para ver estado e información de la Bot.
 ᰔᩚ *#help • #menu*
 > ✦ Ver la lista de comandos de la Bot.
 ᰔᩚ *#uptime • #runtime*
@@ -67,7 +67,7 @@ let handler = async (m, { conn, args }) => {
 
  ✐  •/• \`Buscadores\` •/•
 
-🌻 Comandos para realizar búsquedas en distintas plataformas.
+🦄 Comandos para realizar búsquedas en distintas plataformas.
 ᰔᩚ *#tiktoksearch • #tiktoks*
 > ✦ Buscador de videos de tiktok.
 ᰔᩚ *#tweetposts*
@@ -103,7 +103,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Descargas\` •/•
 
-🐻 Comandos de descargas para varios archivos.
+🌸 Comandos de descargas para varios archivos.
 ᰔᩚ *#tiktok • #tt*
 > ✦ Descarga videos de TikTok.
 ᰔᩚ *#mediafire • #mf*
@@ -147,7 +147,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Economia-rpg\` •/•
 
-🌻 Comandos de economía y fantasía para ganar dinero y otros recursos.
+🦄 Comandos de economía y fantasía para ganar dinero y otros recursos.
 ᰔᩚ *#w • #work • #trabajar*
 > ✦ Trabaja para ganar ${moneda}.
 ᰔᩚ *#slut • #protituirse*
@@ -207,7 +207,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Gacha-rpg\` •/•
 
-🐻 Comandos de gacha para reclamar y colecciónar personajes.
+🌸 Comandos de gacha para reclamar y colecciónar personajes.
 ᰔᩚ *#rollwaifu • #rw • #roll*
 > ✦ Waifu o husbando aleatorio.
 ᰔᩚ  *#claim • #c • #reclamar*
@@ -227,7 +227,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Stickers\` •/•
 
-🌻 Comandos para creaciones de stickers etc.
+🦄 Comandos para creaciones de stickers etc.
 ᰔᩚ *#sticker • #s*
 > ✦ Crea stickers de (imagen/video)
 ᰔᩚ *#pfp • #getpic*
@@ -245,7 +245,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Herramientas\` •/•
 
-🐻 Comandos de herramientas con muchas funciones.
+🌸 Comandos de herramientas con muchas funciones.
 ᰔᩚ *#calcular • #calcular • #cal*
 > ✦ Calcular todo tipo de ecuaciones.
 ᰔᩚ *#tiempo • #clima*
@@ -277,7 +277,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Perfil\` •/•
 
-🌻 Comandos de perfil para ver, configurar y comprobar estados de tu perfil.
+🦄 Comandos de perfil para ver, configurar y comprobar estados de tu perfil.
 ᰔᩚ *#reg • #verificar • #register*
 > ✦ Registra tu nombre y edad en el bot.
 ᰔᩚ *#unreg*
@@ -311,7 +311,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Grupos\` •/•
 
-🐻 Comandos de grupos para una mejor gestión de ellos.
+🌸 Comandos de grupos para una mejor gestión de ellos.
 ᰔᩚ *#config • #on*
 > ✦ Ver opciones de configuración de grupos.
 ᰔᩚ *#hidetag*
@@ -379,7 +379,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Anime\` •/•
 
-🌻 Comandos de reacciones de anime.
+🦄 Comandos de reacciones de anime.
 ᰔᩚ *#angry • #enojado* + <mencion>
 > ✦ Estar enojado
 ᰔᩚ *#bite* + <mencion>
@@ -451,7 +451,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`NSFW\` •/•
 
-🐻 Comandos NSFW (Contenido para adultos)
+🌸 Comandos NSFW (Contenido para adultos)
 ᰔᩚ *#anal* + <mencion>
 > ✦ Hacer un anal
 ᰔᩚ *#waifu*
