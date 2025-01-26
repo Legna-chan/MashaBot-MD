@@ -13,7 +13,7 @@ const handler = async (m, { isPrems, conn }) => {
     return;
   }
 
-  const img = 'https://qu.ax/rZZfy.jpg';
+  const img = 'https://qu.ax/rkjgL.jpg';
   const dia = Math.floor(Math.random() * 100);
   const tok = Math.floor(Math.random() * 10);
   const ai = Math.floor(Math.random() * 40);
@@ -26,12 +26,12 @@ const handler = async (m, { isPrems, conn }) => {
   global.db.data.users[m.sender].lastcofre = Date.now();
 
   const texto = `
-╭━〔 Cofre aleatorio 〕⬣
+╭━〔 Cofre Aleatorio 〕✿
 ┃📦 *Obtienes Un Cofre*
 ┃ ¡Felicidades!
 ╰━━━━━━━━━━━━⬣
 
-╭━〔 Nuevos recursos 〕⬣
+╭━〔 Nuevos Recursos 〕✿
 ┃ *${dia} ${moneda}* 💸
 ┃ *${tok} Tokens* ⚜️
 ┃ *${ai} Diamantes* 💎
