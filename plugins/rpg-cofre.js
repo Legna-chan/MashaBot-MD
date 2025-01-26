@@ -8,12 +8,12 @@ const handler = async (m, { isPrems, conn }) => {
 
   if (Date.now() < timeToNextCofre) {
     const tiempoRestante = timeToNextCofre - Date.now();
-    const mensajeEspera = `🍡 Ya reclamaste tu cofre\n⏰️ Regresa en: *${msToTime(tiempoRestante)}* para volver a reclamar.`;
+    const mensajeEspera = `🍡 Ya reclamaste tu cofre.\n> ✿ Regresa en: *${msToTime(tiempoRestante)}* para volver a reclamar.`;
     await conn.sendMessage(m.chat, { text: mensajeEspera }, { quoted: m });
     return;
   }
 
-  const img = 'https://qu.ax/rZZfy.jpg';
+  const img = 'https://qu.ax/rkjgL.jpg';
   const dia = Math.floor(Math.random() * 100);
   const tok = Math.floor(Math.random() * 10);
   const ai = Math.floor(Math.random() * 40);
@@ -26,12 +26,12 @@ const handler = async (m, { isPrems, conn }) => {
   global.db.data.users[m.sender].lastcofre = Date.now();
 
   const texto = `
-╭━〔 Cofre aleatorio 〕⬣
+╭━〔 Cofre Aleatorio 〕✿
 ┃📦 *Obtienes Un Cofre*
 ┃ ¡Felicidades!
 ╰━━━━━━━━━━━━⬣
 
-╭━〔 Nuevos recursos 〕⬣
+╭━〔 Nuevos Recursos 〕✿
 ┃ *${dia} ${moneda}* 💸
 ┃ *${tok} Tokens* ⚜️
 ┃ *${ai} Diamantes* 💎

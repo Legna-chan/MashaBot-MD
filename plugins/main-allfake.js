@@ -31,17 +31,17 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/5216671548329'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/5216671548329'
-global.namechannel = '↫ Yυƙι-Sυσυ-Bσƚ Cԋαɳɳҽʅ ↬'
-global.namechannel2 = '✧┊┋◟✿𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭✿◞┊┋✧"'
-global.namegrupo = '.•♫•♬• ʏᴜᴋɪ-ꜱᴜᴏᴜ-ʙᴏᴛ  •♬•♫•.'
+global.namechannel = '✧ sᥲgіrі • ᥴһᥲᥒᥒᥱᥣ ✧'
+global.namechannel2 = '⏤͟͟͞͞sᥲgіrі • ᥴһᥲᥒᥒᥱᥣ ❀'
+global.namegrupo = '✰ sᥲgіrі • gr᥆ᥙ⍴ ✰'
 global.namecomu = '✿:･✧ 𝓨𝓾𝓴𝓲 𝓢𝓾𝓸𝓾 𝓒𝓸𝓶𝓾𝓷𝓲𝓽𝔂 ✧･:✿'
-global.listo = '🦋 *Aquí tienes ฅ^•ﻌ•^ฅ*'
+global.listo = '🦄 *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg')
 
 //Ids channel
-global.idchannel = '120363343811229130@newsletter'
-global.canalIdM = ["120363322713003916@newsletter", "120363343811229130@newsletter"]
-global.canalNombreM = ["↫ Yυƙι-Sυσυ-Bσƚ Cԋαɳɳҽʅ ↬", "✧┊┋◟✿𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭✿◞┊┋✧"]
+global.idchannel = '120363390725729031@newsletter'
+global.canalIdM = ["120363390725729031@newsletter", "120363390725729031@newsletter"]
+global.canalNombreM = ["✿ sᥲgіrі • ᥴһᥲᥒᥒᥱᥣ ✿","⏤͟͟͞͞sᥲgіrі • ᥴһᥲᥒᥒᥱᥣ ❀"]
 global.channelRD = await getRandomChannel()
 
 //fechas
@@ -58,7 +58,7 @@ global.rwait = '🕒'
 global.done = '✅'
 global.error = '✖️'
 
-//Emojis determinado de Yuki Bot
+//Emojis determinado de Sagiri
 global.emoji = '🍧'
 global.emoji2 = '🍬'
 global.emoji3 = '🍨'
@@ -66,16 +66,16 @@ global.emoji4 = '🍭'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🌼 Espera un momento, soy lenta...';
-global.waitt = '🌼 Espera un momento, soy lenta...';
-global.waittt = '🌼 Espera un momento, soy lenta...';
-global.waitttt = '🌼 Espera un momento, soy lenta...';
+global.wait = ' Espera un momento, soy lenta...';
+global.waitt = '🪷 Espera un momento, soy lenta...';
+global.waittt = '🪷 Espera un momento, soy lenta...';
+global.waitttt = '🪷 Espera un momento, soy lenta...';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VapSIvR5EjxsD1B7hU3T'  
-let canal2 = 'https://whatsapp.com/channel/0029VavzewJLikg78gILRn1o'
-var git = 'https://github.com/The-King-Destroy'
-var github = 'https://github.com/The-King-Destroy/Yuki_Suou-Bot' 
+var canal = 'https://whatsapp.com/channel/0029Vb3yy64LI8YSrvdyq00R'  
+let canal2 = ''
+var git = 'https://github.com/Legna-chan/SagiriBot-MD'
+var github = 'https://github.com/Legna-chan/SagiriBot-MD' 
 let correo = 'legnakujou@gmail.com'
 
 global.redes = [canal, canal2, git, github, correo].getRandom()

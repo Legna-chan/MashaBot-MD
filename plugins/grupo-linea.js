@@ -21,7 +21,7 @@ let handler = async (m, { conn, args }) => {
     await m.react("✅");
   } catch (error) {
     console.error(error);
-    await m.reply("⚠️ Hubo un error al enviar la lista de usuarios.");
+    await m.reply("🍡 Hubo un error al enviar la lista de usuarios.");
   }
 };
 

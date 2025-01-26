@@ -31,7 +31,7 @@ stiker = await sticker(false, out, global.packsticker, global.author)
 } else if (args[0]) {
 if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packsticker, global.author)
 
-else return m.reply(`🦄 El url es incorrecto...`)
+else return m.reply(`🪷 El url es incorrecto...`)
 
 }
 } catch (e) {

@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 
 let handler  = async (m, { conn, usedPrefix, command }) => {
 
-let grupos = `*Hola!, te invito a unirte a los grupos oficiales del Bot para convivir con la comunidad.....*
+let grupos = `*Hola!, te invito a unirte a los grupos oficiales de la Bot para convivir con la comunidad.....*
 
 - ${namegrupo}
 *❀* ${gp1}
@@ -17,12 +17,9 @@ let grupos = `*Hola!, te invito a unirte a los grupos oficiales del Bot para con
 - ${namechannel}
 *❀* ${channel}
 
-- ✧┊┋◟𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭◞┊┋✧
-*❀* ${channel2}
-
 > ${dev}`
 
-await conn.sendFile(m.chat, miniurl, "yuki.jpg", grupos, m, null, rcanal)
+await conn.sendFile(m.chat, miniurl, "sagiri.jpg", grupos, m, null, rcanal)
 
 await m.react(emojis)
 
