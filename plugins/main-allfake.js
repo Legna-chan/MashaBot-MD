@@ -31,11 +31,11 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/5216671548329'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/5216671548329'
-global.namechannel = '↫ Yυƙι-Sυσυ-Bσƚ Cԋαɳɳҽʅ ↬'
+global.namechannel = '✧ sᥲgіrі • gr᥆ᥙ⍴ ✧'
 global.namechannel2 = '✧┊┋◟✿𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭✿◞┊┋✧"'
-global.namegrupo = '.•♫•♬• ʏᴜᴋɪ-ꜱᴜᴏᴜ-ʙᴏᴛ  •♬•♫•.'
+global.namegrupo = '✰ sᥲgіrі • gr᥆ᥙ⍴ ✰'
 global.namecomu = '✿:･✧ 𝓨𝓾𝓴𝓲 𝓢𝓾𝓸𝓾 𝓒𝓸𝓶𝓾𝓷𝓲𝓽𝔂 ✧･:✿'
-global.listo = '🦋 *Aquí tienes ฅ^•ﻌ•^ฅ*'
+global.listo = '🦄 *Aquí tienes ฅ^•ﻌ•^ฅ*'
 global.fotoperfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg')
 
 //Ids channel
