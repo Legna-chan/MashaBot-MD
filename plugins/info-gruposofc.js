@@ -17,9 +17,6 @@ let grupos = `*Hola!, te invito a unirte a los grupos oficiales de la Bot para c
 - ${namechannel}
 *❀* ${channel}
 
-- ✧┊┋◟𝐘𝐮𝐤𝐢 𝐒𝐮𝐨𝐮 𝐓𝐞𝐬𝐭◞┊┋✧
-*❀* ${channel2}
-
 > ${dev}`
 
 await conn.sendFile(m.chat, miniurl, "yuki.jpg", grupos, m, null, rcanal)
