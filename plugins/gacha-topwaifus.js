@@ -7,7 +7,7 @@ async function loadCharacters() {
         const data = await fs.readFile(charactersFilePath, 'utf-8');
         return JSON.parse(data);
     } catch (error) {
-        throw new Error('《✧》No se pudo cargar el archivo characters.json.');
+        throw new Error('🪷 No se pudo cargar el archivo characters.json.');
     }
 }
 
@@ -25,7 +25,7 @@ let handler = async (m, { conn, args }) => {
 
         const charactersToShow = sortedCharacters.slice(startIndex, endIndex);
 
-        let message = '❀ *Personajes con más valor:*\n';
+        let message = '🌸 *Personajes con más valor:*\n';
         charactersToShow.forEach((character, index) => {
             message += `✰ ${startIndex + index + 1} » *${character.name}*\n`;
             message += `\t\t→ Valor: *${character.value}*\n`;
