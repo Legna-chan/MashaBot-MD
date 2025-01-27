@@ -1,11 +1,11 @@
 import Jimp from 'jimp';
 
 let handler = async (m, { conn }) => {
-  if (!m.quoted) return conn.reply(m.chat, `🍡 Por favor, responde a una imagen para cambiar la foto de perfil.`, m, rcanal);
+  if (!m.quoted) return conn.reply(m.chat, `🍡 Por favor, responde a una imagen para cambiar la foto de perfil.`, m, m);
 
   try {
     const media = await m.quoted.download();
-    if (!media) return conn.reply(m.chat, `🦄 No se pudo obtener la imagen.`, m, rcanal);
+    if (!media) return conn.reply(m.chat, `🦄 No se pudo obtener la imagen.`, m, m);
 
     const image = await Jimp.read(media);
     const buffer = await image.getBufferAsync(Jimp.MIME_JPEG);
