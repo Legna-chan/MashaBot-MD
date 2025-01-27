@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
 
     if (!(who in global.db.data.users)) {
-        return conn.reply(m.chat, '🍬 El usuario no se encuentra en mi base de Datos.', m);
+        return conn.reply(m.chat, '🍡 El usuario no se encuentra en mi base de Datos.', m);
     }
 
     let user = global.db.data.users[who];
@@ -29,7 +29,7 @@ let handler = async (m, { conn, usedPrefix }) => {
                `┋ 🎟️ *Tokens:* ${user.joincount || 0}\n` +  
                `┋ ⚜️ *Premium:* ${premium}\n` + 
                `┋ ⏳ *Última Aventura:* ${user.lastAdventure ? moment(user.lastAdventure).fromNow() : 'Nunca'}\n` + 
-               `┋ 📅 *Fecha:* ${new Date().toLocaleString('id-ID')}\n` +
+               `┋ 🍡 *Fecha:* ${new Date().toLocaleString('id-ID')}\n` +
                `╰━━━━━━━━━━━━⬣`;
 
     await conn.reply(m.chat, text, m);
