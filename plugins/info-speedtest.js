@@ -10,7 +10,7 @@ const handler = async (m) => {
      title: packname,
      body: dev,
      previewType: 0, thumbnail: icons, 
-     sourceUrl: channel }}})
+     sourceUrl: m }}})
       o = await exec('python3 ./lib/ookla-speedtest.py --secure --share');
         const {stdout, stderr} = o;
         if (stdout.trim()) {
