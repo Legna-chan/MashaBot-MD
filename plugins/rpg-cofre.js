@@ -27,15 +27,15 @@ const handler = async (m, { isPrems, conn }) => {
 
   const texto = `
 ╭━〔 Cofre Aleatorio 〕✿
-┃📦 *Obtienes Un Cofre*
-┃ ¡Felicidades!
+> 📦 *Obtienes Un Cofre*
+> ¡Felicidades!
 ╰━━━━━━━━━━━━⬣
 
 ╭━〔 Nuevos Recursos 〕✿
-┃ *${dia} ${moneda}* 💸
-┃ *${tok} Tokens* ⚜️
-┃ *${ai} Diamantes* 💎
-┃ *${expp} Exp* ✨
+> *${dia} ${moneda}* 💸
+> *${tok} Tokens* ⚜️
+> *${ai} Diamantes* 💎
+> *${expp} Exp* ✨
 ╰━━━━━━━━━━━━⬣`;
 
   try {
