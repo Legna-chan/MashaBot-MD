@@ -19,7 +19,7 @@ let txt = `🎊 F E L I C I T A C I O N E S 🎊\n\n`
 txt += `*${before}* ➔ *${user.level}* [ ${user.role} ]\n\n`
 txt += `• ✿ Nivel anterior : ${before}\n`
 txt += `• ✿ Nuevos niveles : ${user.level}\n`
-txt += `• 📆 Fecha : ${new Date().toLocaleString('id-ID')}\n\n`
+txt += `• ✿ Fecha : ${new Date().toLocaleString('id-ID')}\n\n`
 txt += `> Cuanto más a interactúes con sagiri, mayor será tu nivel.`
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, m)}}
 
