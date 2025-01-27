@@ -56,7 +56,7 @@ let handler = async (m, { conn }) => {
                `🪨 *Piedra:* ${stone}\n` +
                `💎 *Diamantes Ganados:* ${diamonds}\n` +
                `✨ *Experiencia Ganada:* ${exp}\n` +
-               `❤️ *Salud Actual:* ${user.health}` +
+               `❤️ *Salud Actual:* ${user.health}`;
     await conn.sendMessage(m.chat, { text: info }, { quoted: m });
 };
 
