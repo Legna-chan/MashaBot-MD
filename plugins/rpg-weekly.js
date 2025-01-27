@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
     const cooldown = 604800000; // 1 semana
 
     if (new Date - user.weekly < cooldown) {
-        return m.reply(`⏱️ ¡Ya reclamaste tu regalo semanal! Vuelve en:\n *${msToTime((user.weekly + cooldown) - new Date())}*`);
+        return m.reply(`🍡 ¡Ya reclamaste tu regalo semanal! Vuelve en:\n *${msToTime((user.weekly + cooldown) - new Date())}*`);
     }
 
     let coinReward = pickRandom([1, 2, 3]);
@@ -19,8 +19,8 @@ let handler = async (m, { conn }) => {
     m.reply(`
 🎁 ¡Ha pasado una semana! ¡Disfruta de tu regalo semanal!.
 
-💸 *${moneda}* : +${coinReward}
-✨ *Experiencia* : +${expReward}`);
+> *${moneda}* : +${coinReward}
+> *Experiencia* : +${expReward}`);
 
     user.weekly = new Date * 1;
 }
