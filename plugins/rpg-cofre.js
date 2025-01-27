@@ -26,17 +26,17 @@ const handler = async (m, { isPrems, conn }) => {
   global.db.data.users[m.sender].lastcofre = Date.now();
 
   const texto = `
-╭━〔 Cofre Aleatorio 〕✿
+╭┈ 〔 Cofre Aleatorio 〕✿
 > 📦 *Obtienes Un Cofre*
 > ¡Felicidades!
-╰━━━━━━━━━━━━⬣
+╰───────────────
 
-╭━〔 Nuevos Recursos 〕✿
+╭┈ 〔 Nuevos Recursos 〕✿
 > *${dia} ${moneda}* 💸
 > *${tok} Tokens* ⚜️
 > *${ai} Diamantes* 💎
 > *${expp} Exp* ✨
-╰━━━━━━━━━━━━⬣`;
+╰──────────────`;
 
   try {
     await conn.sendFile(m.chat, img, 'yuki.jpg', texto);
