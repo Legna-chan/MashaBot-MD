@@ -1,4 +1,4 @@
-import moment from 'moment-timezone';
+ import moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
   let userId = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
@@ -505,8 +505,8 @@ let handler = async (m, { conn, args }) => {
   await conn.sendMessage(m.chat, { 
       text: txt,
       contextInfo: {
-          mentionedJid: [m.sender, userld],
-      false:{
+          mentionedJid: [m.sender, userId],
+          false: {
               newsletterJid: channelRD.id,
               newsletterName: channelRD.name,
               serverMessageId: -1,
