@@ -1,8 +1,8 @@
-
+  
 import { googleImage } from '@bochilteam/scraper';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) return conn.reply(m.chat, '🍬 Por favor, ingresa un término de búsqueda.', m, m);
+    if (!text) return conn.reply(m.chat, '🍬 Por favor, ingresa un término de búsqueda.', m, rcanal);
     
     await m.react(rwait);
     conn.reply(m.chat, '🍭 Descargando su imagen, espere un momento...', m, {
@@ -22,8 +22,11 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
     try {
         const res = await googleImage(text);
+        if (!res || res.length === 0) {
+            return conn.reply(m.chat, '⚠️ No se encontraron imágenes para esa búsqueda.', m);
+        }
+
         const images = await Promise.all([res.getRandom(), res.getRandom(), res.getRandom(), res.getRandom()]);
-        
         const messages = images.map((image, index) => [`Imagen ${index + 1}`, dev, image, [[]], [[]], [[]], [[]]]);
         
         await conn.sendCarousel(m.chat, `🍬 Resultado de ${text}`, '⪛✰ Imagen - Búsqueda ✰⪜', null, messages, m);
