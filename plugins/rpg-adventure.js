@@ -3,14 +3,14 @@ import fetch from 'node-fetch';
 let handler = async (m, { conn }) => {
     let user = global.db.data.users[m.sender];
     if (!user) {
-        return conn.reply(m.chat, '🍬 El usuario no se encuentra en la base de Datos.', m);
+        return conn.reply(m.chat, '🍡 El usuario no se encuentra en la base de Datos.', m);
     }
     if (user.health < 80) {
-        return conn.reply(m.chat, '💔 No tienes suficiente salud para aventurarte. Usa el comando .heal para curarte.', m);
+        return conn.reply(m.chat, '🪷 No tienes suficiente salud para aventurarte. Usa el comando .heal para curarte.', m);
     }
     if (user.lastAdventure && new Date() - user.lastAdventure <= 1500000) {
         let timeLeft = 1500000 - (new Date() - user.lastAdventure);
-        return conn.reply(m.chat, `⏳ Debés esperar. ${msToTime(timeLeft)} antes de aventurarte de nuevo.`, m);
+        return conn.reply(m.chat, `🍡 Debés esperar. ${msToTime(timeLeft)} antes de aventurarte de nuevo.`, m);
     }
     let kingdoms = [
         'Reino de Eldoria',
@@ -56,7 +56,7 @@ let handler = async (m, { conn }) => {
                `🪨 *Piedra:* ${stone}\n` +
                `💎 *Diamantes Ganados:* ${diamonds}\n` +
                `✨ *Experiencia Ganada:* ${exp}\n` +
-               `❤️ *Salud Actual:* ${user.health}`;
+               `❤️ *Salud Actual:* ${user.health}` +
     await conn.sendMessage(m.chat, { text: info }, { quoted: m });
 };
 
