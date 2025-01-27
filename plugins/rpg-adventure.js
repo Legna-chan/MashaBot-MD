@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
     }
     if (user.lastAdventure && new Date() - user.lastAdventure <= 1500000) {
         let timeLeft = 1500000 - (new Date() - user.lastAdventure);
-        return conn.reply(m.chat, `🍡 Debés esperar. ${msToTime(timeLeft)} antes de aventurarte de nuevo.`, m);
+        return conn.reply(m.chat, `🍡 Debés esperar: ${msToTime(timeLeft)} antes de aventurarte de nuevo.`, m);
     }
     let kingdoms = [
         'Reino de Eldoria',
