@@ -78,4 +78,5 @@ const trabajo = [
    "Trabajas como zoólogo y ganas",
    "Vendiste sándwiches de pescado y obtuviste",
    "Reparas las máquinas recreativas y recibes",
-] 
+   " Trabajaste cuidando una loli y ganaste", 
+]
