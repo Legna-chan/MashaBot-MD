@@ -2,7 +2,7 @@
 import { googleImage } from '@bochilteam/scraper';
 
 const handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) return conn.reply(m.chat, '🍬 Por favor, ingresa un término de búsqueda.', m, rcanal);
+    if (!text) return conn.reply(m.chat, '🍬 Por favor, ingresa un término de búsqueda.', m, m);
     
     await m.react(rwait);
     conn.reply(m.chat, '🍭 Descargando su imagen, espere un momento...', m, {
