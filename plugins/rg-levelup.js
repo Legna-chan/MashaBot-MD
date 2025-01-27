@@ -20,7 +20,7 @@ txt += `*${before}* ➔ *${user.level}* [ ${user.role} ]\n\n`
 txt += `• ⭐ Nivel anterior : ${before}\n`
 txt += `• 🌟 Nuevos niveles : ${user.level}\n`
 txt += `• 📅 Fecha : ${new Date().toLocaleString('id-ID')}\n\n`
-txt += `🍡 *Nota:*> Cuanto más a interactúes con sagiri,mayor será tu nivel.`
+txt += `🍡 *Nota:* > Cuanto más a interactúes con sagiri,mayor será tu nivel.`
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, rcanal)}}
 
 handler.help = ['levelup']
