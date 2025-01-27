@@ -10,7 +10,7 @@ var handler = async (m, { conn }) => {
     let timeRemaining = user.monthly + cooldown - new Date();
 
     if (timeRemaining > 0) {
-        return m.reply(`⏱️ ¡Ya reclamaste tu regalo mensual! Vuelve en:\n *${msToTime(timeRemaining)}*`);
+        return m.reply(`🍡 ¡Ya reclamaste tu regalo mensual! Vuelve en:\n *${msToTime(timeRemaining)}*`);
     }
 
     let coinReward = pickRandom([1, 2, 3, 4, 5]);
@@ -24,9 +24,9 @@ var handler = async (m, { conn }) => {
     m.reply(`
 \`\`\`🎁 ¡Ha pasado un mes! ¡Disfruta de tu regalo mensual!. \`\`\`
 
-💸 *${moneda}* : +${coinReward}
-✨ *Experiencia* : +${expReward}
-💎 *Diamantes* : +${diamondReward}`);
+> *${moneda}* : +${coinReward}
+> *Experiencia* : +${expReward}
+> *Diamantes* : +${diamondReward}`);
 
     user.monthly = new Date * 1;
 }
