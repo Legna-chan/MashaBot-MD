@@ -506,7 +506,7 @@ let handler = async (m, { conn, args }) => {
       text: txt,
       contextInfo: {
           mentionedJid: [m.sender, userld],
-         m: {
+         : {
               newsletterJid: channelRD.id,
               newsletterName: channelRD.name,
               serverMessageId: -1,
