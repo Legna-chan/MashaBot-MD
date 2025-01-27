@@ -15,11 +15,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       return `\`\`\`[ 🏆  ¡Encontraste un monstruo! Lo derrotaste y encontraste ${coinEncontradas} ${moneda}, más ➔ ${bonoExtra} como bono extra. ]\`\`\``;
     } else {
       global.db.data.users[m.sender].coin -= coinEncontradas;
-      return `\`\`\`[ ⚠️  ¡Encontraste un monstruo! El monstruo te derrotó y perdiste ➔ ${coinEncontradas} ${moneda}. ]\`\`\``;
+      return `\`\`\`[ 🍡 ¡Encontraste un monstruo! El monstruo te derrotó y perdiste ➔ ${coinEncontradas} ${moneda}. ]\`\`\``;
     
     }
   } else {
-    return `\`\`\`[ 🎆 ¡Exploraste la mazmorra y encontraste ${coinEncontradas} ${moneda}.]\`\`\``;
+    return `\`\`\`[ 🪷 ¡Exploraste la mazmorra y encontraste ${coinEncontradas} ${moneda}.]\`\`\``;
     global.db.data.users[m.sender].coin += coinEncontradas; 
   }
 }
