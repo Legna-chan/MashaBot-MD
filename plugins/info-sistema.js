@@ -33,7 +33,7 @@ const handler = async (m, { conn }) => {
     const nodeUsage = process.memoryUsage();
     const diskSpace = getDiskSpace();
 
-    const message = `✅️ *ESTADO DEL SISTEMA*
+    const message = `🍡 *ESTADO DEL SISTEMA*
 
 ⚜️ *Host ⪼* ${hostname}
 🏆 *Plataforma ⪼* ${platform}
