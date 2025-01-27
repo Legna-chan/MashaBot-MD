@@ -505,8 +505,8 @@ let handler = async (m, { conn, args }) => {
   await conn.sendMessage(m.chat, { 
       text: txt,
       contextInfo: {
-          mentionedJid: [m.sender, userId],
-          false: {
+          mentionedJid: [m.sender, userld],
+         m: {
               newsletterJid: channelRD.id,
               newsletterName: channelRD.name,
               serverMessageId: -1,
