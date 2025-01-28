@@ -8,7 +8,7 @@ var number = text.split`@`[1]
 var number = text
 }
 
-if (!text && !m.quoted) return conn.reply(m.chat, `🍡 Debes mencionar a un usuario para poder degradarlo de administrador.`, m, rcanal)
+if (!text && !m.quoted) return conn.reply(m.chat, `🍡 Debes mencionar a un usuario para poder degradarlo de administrador.`, m, m)
 if (number.length > 13 || (number.length < 11 && number.length > 0)) return conn.reply(m.chat, `🍡 Debes mencionar a un usuario para poder degradarlo de administrador.`, m, fake)
 
 try {
