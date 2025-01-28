@@ -6,11 +6,11 @@ import axios from 'axios'; // Para hacer solicitudes HTTP
 const handler = async (m, {conn, text, __dirname, usedPrefix, command}) => {
   // Verificamos si el contenido NSFW está desactivado en el grupo
   if (!db.data.chats[m.chat].nsfw && m.isGroup) {
-    return m.reply('🍬 El contenido *NSFW* está desactivado en este grupo.\n> Un administrador puede activarlo con el comando » *#nsfw*');
+    return m.reply('🍡 El contenido *NSFW* está desactivado en este grupo.\n> Un administrador puede activarlo con el comando » *#nsfw*');
   }
 
   // Verificamos si se ingresó un texto para buscar
-  if (!text) throw '🍬 Por favor, ingresa el nombre de algún hentai para buscar.';
+  if (!text) throw '🍡 Por favor, ingresa el nombre de algún hentai para buscar.';
   
   // Realizamos la búsqueda del hentai
   const searchResults = await searchHentai(text);
@@ -18,8 +18,8 @@ const handler = async (m, {conn, text, __dirname, usedPrefix, command}) => {
   // Creamos el texto de respuesta con los resultados
   let teks = searchResults.result.map((v, i) => `
 ${i+1}. *_${v.title}_*
-↳ 👀 *_Vistas:_* ${v.views}
-↳ 🔗 *_Link:_* ${v.url}`).join('\n\n');
+↳ ✿ *_Vistas:_* ${v.views}
+↳ ✿ *_Link:_* ${v.url}`).join('\n\n');
   
   let randomThumbnail;
   
@@ -30,7 +30,7 @@ ${i+1}. *_${v.title}_*
   } else {
     // Si no hay resultados, usamos una miniatura por defecto
     randomThumbnail = 'https://pictures.hentai-foundry.com/e/Error-Dot/577798/Error-Dot-577798-Zero_Two.png';
-    teks = '🍭 No se encontraron resultados.,.';
+    teks = '🪷 No se encontraron resultados.,.';
   }
   
   // Enviamos el archivo con la miniatura y el texto de resultados
