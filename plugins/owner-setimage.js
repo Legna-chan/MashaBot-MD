@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
 
   try {
     const media = await m.quoted.download();
-    if (!media) return conn.reply(m.chat, `🦄 No se pudo obtener la imagen.`, m, m);
+    if (!media) return conn.reply(m.chat, `🪷 No se pudo obtener la imagen.`, m, m);
 
     const image = await Jimp.read(media);
     const buffer = await image.getBufferAsync(Jimp.MIME_JPEG);
