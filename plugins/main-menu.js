@@ -11,7 +11,7 @@ let handler = async (m, { conn, args }) => {
 
   let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
 
-  let txt = ` *𝘩𝘰𝘭𝘢! 𝘣𝘪𝘦𝘯𝘷𝘦𝘯𝘪𝘥@ 𝘢𝘭 𝘮𝘦𝘯𝘶 𝘥𝘦* *${botname}*
+  let txt = ` Hola @${userId.split('@')[0]} bienvenid@ al menu de* *${botname}*
 ╭┈ ↷
 │ ✧ Cliente » @${userId.split('@')[0]}
 │ ✰ ${moneda} » ${coins}
