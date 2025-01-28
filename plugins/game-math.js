@@ -1,4 +1,3 @@
-
 global.math = global.math || {};
 
 const handler = async (m, {conn, args, usedPrefix, command}) => {
