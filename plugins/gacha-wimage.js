@@ -17,6 +17,7 @@ async function loadHarem() {
         const data = await fs.readFile(haremFilePath, 'utf-8');
         return JSON.parse(data);
     } catch (error) {
+        console.error('Error al cargar harem.json:', error);
         return [];
     }
 }
@@ -34,6 +35,11 @@ let handler = async (m, { conn, args }) => {
         }
 
         // Seleccionar una imagen aleatoria
+        if (!character.img || character.img.length === 0) {
+            await conn.reply(m.chat, `✘ No hay imágenes disponibles para el personaje *${character.name}*.`, m);
+            return;
+        }
+
         const randomImage = character.img[Math.floor(Math.random() * character.img.length)];
 
         const message = `❀ Nombre » *${character.name}*
