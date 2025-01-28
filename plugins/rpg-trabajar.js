@@ -46,7 +46,7 @@ return list[Math.floor(list.length * Math.random())];
 // Thanks to FG98
 const trabajo = [
    "Trabajas como cortador de galletas y ganas",
-   "Trabaja para una empresa militar privada, ganando",
+   "Trabajas para una empresa militar privada, ganando",
    "Organiza un evento de cata de vinos y obtienes",
    "Limpias la chimenea y encuentras",
    "Desarrollas juegos para ganarte la vida y ganas",
