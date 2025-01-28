@@ -1,10 +1,9 @@
 const handler = async (m, { conn, participants, groupMetadata }) => {
   const { welcome, autolevelup, antiBot, antiBot2, autoAceptar, autoRechazar, autoresponder, modoadmin, reaction, nsfw, detect, antiLink, antitoxic, antiTraba, antifake } = global.db.data.chats[m.chat];
   
-  const text = `✨ *CONFIGURACIÓN DEL GRUPO* 
+  const text = `✿ *CONFIGURACIÓN DEL GRUPO* 
   
-◈ Welcome: ${welcome ? 'Activado' : 'Desactivado'}
-◈ Autolevelup: ${autolevelup ? 'Activado' : 'Desactivado'} 
+◈ Welcome: ${welcome ? 'Activado' : 'Desactivado'} 
 ◈ Antibot: ${antiBot ? 'Activado' : 'Desactivado'} 
 ◈ Antisubbots: ${antiBot2 ? 'Activado' : 'Desactivado'}
 ◈ Autoaceptar: ${autoAceptar ? 'Activado' : 'Desactivado'} 
