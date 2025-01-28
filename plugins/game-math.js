@@ -6,7 +6,11 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 *Dificultades Disponibles: ${Object.keys(modes).join(' | ')}*
 *Ejemplo de uso: ${usedPrefix}mates medium*
 `.trim();
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 57c931b22024dfb0e0c02b532bc1f83558e2e1cd
   if (args.length < 1) return await conn.reply(m.chat, mat, m);
 
   const mode = args[0].toLowerCase();
@@ -14,7 +18,11 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
 
   const id = m.chat;
   if (id in global.math) return conn.reply(m.chat, '🍭 Todavía hay un juego en proceso en este chat.', global.math[id][0]);
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 57c931b22024dfb0e0c02b532bc1f83558e2e1cd
   const math = genMath(mode);
   global.math[id] = [
     await conn.reply(m.chat, `🍭 Cuanto es el resultado de ${math.str}?\n\n🕒 Tiempo: ${(math.time / 1000).toFixed(2)} segundos\n*🍬 Premio: ${math.bonus} XP*`, m),
