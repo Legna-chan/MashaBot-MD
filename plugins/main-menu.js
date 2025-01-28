@@ -85,8 +85,6 @@ let handler = async (m, { conn, args }) => {
 > ✦ Buscador de capítulos de #animesearch.
 ᰔᩚ *#infoanime*
 > ✦ Buscador de información de anime/manga.
-ᰔᩚ *#hentaisearch • #searchhentai*
-> ✦ Buscador de capítulos hentai.
 ᰔᩚ #xnxxsearch • #xnxxs*
 > ✦ Buscador de vídeos de Xnxx.
 ᰔᩚ *#xvsearch • #xvideossearch*
