@@ -30,8 +30,6 @@ let handler = async (m, { conn, args }) => {
 > ✦ Ver tiempo activo o en linea de la Bot.
 ✿ *#sc • #script*
 > ✦ Link del repositorio oficial de la Bot
-✿ *#staff • #colaboradores*
-> ✦ Ver la lista de desarrolladores de la Bot.
 ✿ *#creador*
 > ✦ Contacto del creador de la Bot.
 ✿ *#status • #estado*
