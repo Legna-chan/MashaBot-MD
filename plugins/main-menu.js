@@ -131,8 +131,6 @@ let handler = async (m, { conn, args }) => {
 > ✦ Descarga videos porno de (Xvideos). 
 ᰔᩚ *#xnxxdl*
 > ✦ Descarga videos porno de (xnxx).
-ᰔᩚ *#apk • #modapk*
-> ✦ Descarga un apk de Aptoide.
 ᰔᩚ *#tiktokrandom • #ttrandom*
 > ✦ Descarga un video aleatorio de tiktok.
 ᰔᩚ *#npmdl • #npmdownloader*
