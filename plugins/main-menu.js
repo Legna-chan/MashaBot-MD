@@ -20,7 +20,7 @@ let handler = async (m, { conn, args }) => {
 │ 🜲 Rango » ${role}
 ╰─────────────────
 
-🌷  •/• \`Info-Bot\` •/•
+✐  •/• \`Info-Bot\` •/•
 
  Comandos para ver estado e información de la Bot.
 
