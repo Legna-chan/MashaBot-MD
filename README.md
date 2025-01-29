@@ -5,7 +5,7 @@
 
 >  https://chat.whatsapp.com/D8U3fQB1oLj3TzqwhRmzAD
 
-### **`✿ Créditos`**
+### **`✰ Créditos ✰`**
 <a
 href="https://github.com/The-King-Destroy"><img src="https://github.com/The-King-Destroy.png" width="140" height="140" alt="Destroy"/></a>
 
