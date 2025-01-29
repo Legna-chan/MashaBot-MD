@@ -11,7 +11,7 @@ let handler = async (m, { conn, args }) => {
 
   let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
 
-  let txt = '!Hola! bienvenid@ al menu de *${botname}*
+  let txt = ' 𝚑𝚘𝚕𝚊! 𝚋𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚖𝚎𝚗𝚞 𝚍𝚎 *${botname}*
 ╭┈ ↷
 │ ✧ Cliente » @${userId.split('@')[0]}
 │ ✰ ${moneda} » ${coins}
@@ -41,23 +41,23 @@ let handler = async (m, { conn, args }) => {
 ✿ *#sug • #newcommand*
 > ➩ Sugiere un nuevo comando.
 ✿ *#solicitud • #sugerencia*
-> ✦ Envia una sugerencia al canal de la Bot.
+> ➩ Envia una sugerencia al canal de la Bot.
 ✿ *#p • #ping*
-> ✦ Ver la velocidad de respuesta del Bot.
+> ➩ Ver la velocidad de respuesta del Bot.
 ✿ *#reporte • #reportar*
-> ✦ Reporta alguna falla o problema de la Bot.
+> ➩ Reporta alguna falla o problema de la Bot.
 ✿ *#sistema • #system*
-> ✦ Ver estado del sistema de alojamiento.
+> ➩ Ver estado del sistema de alojamiento.
 ✿ *#speed • #speedtest*
-> ✦ Ver las estadísticas de velocidad de la Bot.
+> ➩ Ver las estadísticas de velocidad de la Bot.
 ✿ *#views • #usuarios*
-> ✦ Ver la cantidad de usuarios registrados en el sistema.
+> ➩ Ver la cantidad de usuarios registrados en el sistema.
 ✿ *#funciones • #totalfunciones*
-> ✦ Ver todas las funciones de la Bot.
+> ➩ Ver todas las funciones de la Bot.
 ✿ *#ds • #fixmsgespera*
-> ✦ Eliminar archivos de sesión innecesarios.
+> ➩ Eliminar archivos de sesión innecesarios.
 ✿ *#editautoresponder*
-> ✦ Configurar un Prompt personalizado de la Bot.
+> ➩ Configurar un Prompt personalizado de la Bot.
 
  ✐  •/• \`Buscadores\` •/•
 
