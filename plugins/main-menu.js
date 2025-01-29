@@ -25,21 +25,21 @@ let handler = async (m, { conn, args }) => {
  Comandos para ver estado e información de la Bot.
 
 ✿ *#help • #menu*
-> ✦ Ver la lista de comandos de la Bot.
+> ➩ Ver la lista de comandos de la Bot.
 ✿ *#uptime • #runtime*
-> ✦ Ver tiempo activo o en linea de la Bot.
+> ➩ Ver tiempo activo o en linea de la Bot.
 ✿ *#sc • #script*
-> ✦ Link del repositorio oficial de la Bot
+> ➩ Link del repositorio oficial de la Bot
 ✿ *#creador*
-> ✦ Contacto del creador de la Bot.
+> ➩ Contacto del creador de la Bot.
 ✿ *#status • #estado*
-> ✦ Ver el estado actual de la Bot.
+> ➩ Ver el estado actual de la Bot.
 ✿ *#links • #grupos*
-> ✦ Ver los enlaces oficiales de la Bot.
+> ➩ Ver los enlaces oficiales de la Bot.
 ✿ *#infobot • #infobot*
-> ✦ Ver la información completa de la Bot.
+> ➩ Ver la información completa de la Bot.
 ✿ *#sug • #newcommand*
-> ✦ Sugiere un nuevo comando.
+> ➩ Sugiere un nuevo comando.
 ✿ *#solicitud • #sugerencia*
 > ✦ Envia una sugerencia al canal de la Bot.
 ✿ *#p • #ping*
