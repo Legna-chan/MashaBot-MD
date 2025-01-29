@@ -148,7 +148,7 @@ let handler = async (m, { conn, args }) => {
 > ✦ Trabaja como prostituta y gana ${moneda}.
 ᰔᩚ *#cf • #suerte*
 > ✦ Apuesta tus ${moneda} a cara o cruz.
-ᰔᩚ *#crime • #crimen
+ᰔᩚ *#crime • #crimen*
 > ✦ Trabaja como ladrón para ganar ${moneda}.
 ᰔᩚ *#ruleta • #roulette • #rt*
 > ✦ Apuesta ${moneda} al color rojo o negro.
