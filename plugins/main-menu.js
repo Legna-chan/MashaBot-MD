@@ -11,7 +11,7 @@ let handler = async (m, { conn, args }) => {
 
   let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
 
-  let txt = ` Hola bienvenid@ al menu de *${botname}*
+  let txt = ` Hola! bienvenid@ al menu de *${botname}*
 ╭┈ ↷
 │ ✧ Cliente » @${userId.split('@')[0]}
 │ ✰ ${moneda} » ${coins}
@@ -511,7 +511,7 @@ let handler = async (m, { conn, args }) => {
           externalAdReply: {
               title: botname,
               body: textbot,
-              thumbnailUrl: banner,
+              thumbnailUrl: pfp,
               mediaType: 1,
               showAdAttribution: true,
               renderLargerThumbnail: true,
