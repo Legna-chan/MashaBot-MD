@@ -11,7 +11,8 @@ let handler = async (m, { conn, args }) => {
 
   let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
 
-  let txt = ' 𝚑𝚘𝚕𝚊! 𝚋𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚖𝚎𝚗𝚞 𝚍𝚎 *${botname}*
+  let txt = `
+𝚑𝚘𝚕𝚊! 𝚋𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚖𝚎𝚗𝚞 𝚍𝚎 *${botname}*
 ╭┈ ↷
 │ ✧ Cliente » @${userId.split('@')[0]}
 │ ✰ ${moneda} » ${coins}
@@ -22,7 +23,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Info-Bot\` •/•
 
- Comandos para ver estado e información de la Bot.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ⍴ᥲrᥲ ᥎ᥱr ᥱᥣ ᥱs𝗍ᥲძ᥆ ᥱ іᥒ𝖿᥆rmᥲᥴі᥆́ᥒ ძᥱ ᥣᥲ ᑲ᥆𝗍. 
 
 ✿ *#help • #menu*
 > ➩ Ver la lista de comandos de la Bot.
@@ -61,42 +62,42 @@ let handler = async (m, { conn, args }) => {
 
  ✐  •/• \`Buscadores\` •/•
 
-🦄 Comandos para realizar búsquedas en distintas plataformas.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ⍴ᥲrᥲ rᥱᥲᥣіzᥲr ᑲᥙ́s𝗊ᥙᥱძᥲs ᥱᥒ ძіs𝗍іᥒ𝗍ᥲs ⍴ᥣᥲ𝗍ᥲ𝖿᥆rmᥲs.
 
-ᰔᩚ *#tiktoksearch • #tiktoks*
-> ✦ Buscador de videos de tiktok.
-ᰔᩚ *#tweetposts*
-> ✦ Buscador de posts de Twitter/X.
-ᰔᩚ *#ytsearch • #yts*
-> ✦ Realiza búsquedas de Youtube.
-ᰔᩚ *#githubsearch*
-> ✦ Buscador de usuarios de GitHub.
-ᰔᩚ *#cuevana • #cuevanasearch*
-> ✦ Buscador de películas/series por Cuevana.
+✿ *#tiktoksearch • #tiktoks*
+> ➩ Buscador de videos de tiktok.
+✿ *#tweetposts*
+> ➩ Buscador de posts de Twitter/X.
+✿ *#ytsearch • #yts*
+> ➩ Realiza búsquedas de Youtube.
+✿ *#githubsearch*
+> ➩ Buscador de usuarios de GitHub.
+✿ *#cuevana • #cuevanasearch*
+> ➩ Buscador de películas/series por Cuevana.
 ᰔᩚ *#google*
-> ✦ Realiza búsquedas por Google.
-ᰔᩚ *#pin • #pinterest*
-> ✦ Buscador de imagenes de Pinterest.
-ᰔᩚ *#imagen • #image*
-> ✦ buscador de imagenes de Google.
-ᰔᩚ *#animesearch • #animess*
-> ✦ Buscador de animes de tioanime.
-ᰔᩚ *#animei • #animeinfo*
-> ✦ Buscador de capítulos de #animesearch.
-ᰔᩚ *#infoanime*
-> ✦ Buscador de información de anime/manga.
-ᰔᩚ #xnxxsearch • #xnxxs*
-> ✦ Buscador de vídeos de Xnxx.
-ᰔᩚ *#xvsearch • #xvideossearch*
-> ✦ Buscador de vídeos de Xvideos.
-ᰔᩚ *#pornhubsearch • #phsearch*
-> ✦ Buscador de videos de Pornhub.
-ᰔᩚ *#npmjs*
-> ✦ Buscandor de npmjs.
+> ➩ Realiza búsquedas por Google.
+✿ *#pin • #pinterest*
+> ➩ Buscador de imagenes de Pinterest.
+✿ *#imagen • #image*
+> ➩ buscador de imagenes de Google.
+✿ *#animesearch • #animess*
+> ➩ Buscador de animes de tioanime.
+✿ *#animei • #animeinfo*
+> ➩ Buscador de capítulos de #animesearch.
+✿ *#infoanime*
+> ➩ Buscador de información de anime/manga.
+✿ #xnxxsearch • #xnxxs*
+> ➩ Buscador de vídeos de Xnxx.
+✿ *#xvsearch • #xvideossearch*
+> ➩ Buscador de vídeos de Xvideos.
+✿ *#pornhubsearch • #phsearch*
+> ➩ Buscador de videos de Pornhub.
+✿ *#npmjs*
+> ➩ Buscandor de npmjs.
 
 ✐  •/• \`Descargas\` •/•
 
-🌸 Comandos de descargas para varios archivos.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ ძᥱsᥴᥲrgᥲs ⍴ᥲrᥲ ᥎ᥲrі᥆s ᥲrᥴһі᥎᥆s.
 
 ᰔᩚ *#tiktok • #tt*
 > ✦ Descarga videos de TikTok.
@@ -141,7 +142,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Economia-rpg\` •/•
 
-🦄 Comandos de economía y fantasía para ganar dinero y otros recursos.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ ᥱᥴ᥆ᥒ᥆mі́ᥲ ᥡ 𝖿ᥲᥒ𝗍ᥲsі́ᥲ ⍴ᥲrᥲ gᥲᥒᥲr ძіᥒᥱr᥆ ᥡ ᥆𝗍r᥆s rᥱᥴᥙrs᥆s.
 
 ᰔᩚ *#w • #work • #trabajar*
 > ✦ Trabaja para ganar ${moneda}.
@@ -202,7 +203,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Gacha-rpg\` •/•
 
-🌸 Comandos de gacha para reclamar y colecciónar personajes.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ gᥲᥴһᥲ ⍴ᥲrᥲ rᥱᥴᥣᥲmᥲr ᥡ ᥴ᥆ᥣᥱᥴᥴі᥆́ᥒᥲr ⍴ᥱrs᥆ᥒᥲȷᥱs.
 
 ᰔᩚ *#rollwaifu • #rw • #roll*
 > ✦ Waifu o husbando aleatorio.
@@ -223,7 +224,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Stickers\` •/•
 
-🦄 Comandos para creaciones de stickers etc.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ⍴ᥲrᥲ ᥴrᥱᥲᥴі᥆ᥒᥱs ძᥱ s𝗍іᥴkᥱrs ᥱ𝗍ᥴ.
 
 ᰔᩚ *#sticker • #s*
 > ✦ Crea stickers de (imagen/video)
@@ -242,7 +243,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Herramientas\` •/•
 
-🌸 Comandos de herramientas con muchas funciones.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ һᥱrrᥲmіᥱᥒ𝗍ᥲs ᥴ᥆ᥒ mᥙᥴһᥲs 𝖿ᥙᥒᥴі᥆ᥒᥱs.
 
 ᰔᩚ *#calcular • #calcular • #cal*
 > ✦ Calcular todo tipo de ecuaciones.
@@ -258,8 +259,6 @@ let handler = async (m, { conn, args }) => {
 > ✦ Cambia la fuente de las letras.
 ᰔᩚ *#read • #readviewonce • #ver*
 > ✦ Ver imágenes de una sola vista.
-ᰔᩚ *#whatmusic • #shazam*
-> ✦ Descubre el nombre de canciones o vídeos.
 ᰔᩚ *#spamwa • #spam*
 > ✦ Envia spam aun usuario.
 ᰔᩚ *#ss • #ssweb*
@@ -275,7 +274,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Perfil\` •/•
 
-🦄 Comandos de perfil para ver, configurar y comprobar estados de tu perfil.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ ⍴ᥱr𝖿іᥣ ⍴ᥲrᥲ ᥎ᥱr, ᥴ᥆ᥒ𝖿іgᥙrᥲr ᥡ ᥴ᥆m⍴r᥆ᑲᥲr ᥱs𝗍ᥲძ᥆s ძᥱ 𝗍ᥙ ⍴ᥱr𝖿іᥣ.
 
 ᰔᩚ *#reg • #verificar • #register*
 > ✦ Registra tu nombre y edad en el bot.
@@ -310,7 +309,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Grupos\` •/•
 
-🌸 Comandos de grupos para una mejor gestión de ellos.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ grᥙ⍴᥆s ⍴ᥲrᥲ ᥙᥒᥲ mᥱȷ᥆r gᥱs𝗍і᥆́ᥒ ძᥱ ᥱᥣᥣ᥆s.
 
 ᰔᩚ *#config • #on*
 > ✦ Ver opciones de configuración de grupos.
@@ -379,7 +378,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`Anime\` •/•
 
-🦄 Comandos de reacciones de anime.
+☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ rᥱᥲᥴᥴі᥆ᥒᥱs ძᥱ ᥲᥒіmᥱ.
 
 ᰔᩚ *#angry • #enojado* + <mencion>
 > ✦ Estar enojado
@@ -452,7 +451,7 @@ let handler = async (m, { conn, args }) => {
 
 ✐  •/• \`NSFW\` •/•
 
-🌸 Comandos NSFW (Contenido para adultos). 
+☄︎ ᥴ᥆mᥲᥒძ᥆s ᥒs𝖿ᥕ (ᥴ᥆ᥒ𝗍ᥱᥒіძ᥆ ⍴ᥲrᥲ ᥲძᥙᥣ𝗍᥆s). 
 
 ᰔᩚ *#anal* + <mencion>
 > ✦ Hacer un anal
