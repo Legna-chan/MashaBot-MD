@@ -258,8 +258,6 @@ let handler = async (m, { conn, args }) => {
 > ✦ Cambia la fuente de las letras.
 ᰔᩚ *#read • #readviewonce • #ver*
 > ✦ Ver imágenes de una sola vista.
-ᰔᩚ *#whatmusic • #shazam*
-> ✦ Descubre el nombre de canciones o vídeos.
 ᰔᩚ *#spamwa • #spam*
 > ✦ Envia spam aun usuario.
 ᰔᩚ *#ss • #ssweb*
