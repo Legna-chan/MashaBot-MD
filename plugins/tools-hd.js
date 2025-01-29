@@ -11,7 +11,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
   title: packname,
   body: wm,
   previewType: 0, thumbnail: icons,
-  sourceUrl:  }}})
+  sourceUrl: m }}})
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: fkontak});
