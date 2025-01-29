@@ -95,7 +95,7 @@ let handler = async (m, { conn, args }) => {
 ✿ *#npmjs*
 > ➩ Buscandor de npmjs.
 
-✐  •/• \`Descargas\archivos\` •/•
+✐  •/• \`Descargas\` •/•
 
 ☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ ძᥱsᥴᥲrgᥲs ⍴ᥲrᥲ ᥎ᥲrі᥆s ᥲrᥴһі᥎᥆s.
 
