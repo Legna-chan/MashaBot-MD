@@ -1,4 +1,4 @@
-import moment from 'moment-timezone';
+ import moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
   let userId = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
@@ -11,10 +11,10 @@ let handler = async (m, { conn, args }) => {
 
   let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
 
-  let txt = ` 𝚑𝚘𝚕𝚊! 𝚋𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚖𝚎𝚗𝚞 𝚍𝚎 *${global.botname}*
+  let txt = ' 𝚑𝚘𝚕𝚊! 𝚋𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚖𝚎𝚗𝚞 𝚍𝚎 *${botname}*
 ╭┈ ↷
 │ ✧ Cliente » @${userId.split('@')[0]}
-│ ✰ ${global.moneda} » ${coins}
+│ ✰ ${moneda} » ${coins}
 │ ꕥ Experiencia » ${exp.toLocaleString()}
 │ ✤ Nivel » ${nivel}
 │ 🜲 Rango » ${role}
@@ -85,7 +85,7 @@ let handler = async (m, { conn, args }) => {
 > ✦ Buscador de capítulos de #animesearch.
 ᰔᩚ *#infoanime*
 > ✦ Buscador de información de anime/manga.
-ᰔᩚ *#xnxxsearch • #xnxxs*
+ᰔᩚ #xnxxsearch • #xnxxs*
 > ✦ Buscador de vídeos de Xnxx.
 ᰔᩚ *#xvsearch • #xvideossearch*
 > ✦ Buscador de vídeos de Xvideos.
@@ -144,33 +144,33 @@ let handler = async (m, { conn, args }) => {
 🦄 Comandos de economía y fantasía para ganar dinero y otros recursos.
 
 ᰔᩚ *#w • #work • #trabajar*
-> ✦ Trabaja para ganar ${global.moneda}.
+> ✦ Trabaja para ganar ${moneda}.
 ᰔᩚ *#slut • #protituirse*
-> ✦ Trabaja como prostituta y gana ${global.moneda}.
+> ✦ Trabaja como prostituta y gana ${moneda}.
 ᰔᩚ *#cf • #suerte*
-> ✦ Apuesta tus ${global.moneda} a cara o cruz.
-ᰔᩚ *#crime • #crimen*
-> ✦ Trabaja como ladrón para ganar ${global.moneda}.
+> ✦ Apuesta tus ${moneda} a cara o cruz.
+ᰔᩚ *#crime • #crimen
+> ✦ Trabaja como ladrón para ganar ${moneda}.
 ᰔᩚ *#ruleta • #roulette • #rt*
-> ✦ Apuesta ${global.moneda} al color rojo o negro.
+> ✦ Apuesta ${moneda} al color rojo o negro.
 ᰔᩚ *#casino • #apostar*
-> ✦ Apuesta tus ${global.moneda} en el casino.
+> ✦ Apuesta tus ${moneda} en el casino.
 ᰔᩚ *#slot*
-> ✦ Apuesta tus ${global.moneda} en la ruleta y prueba tu suerte.
+> ✦ Apuesta tus ${moneda} en la ruleta y prueba tu suerte.
 ᰔᩚ *#cartera • #wallet*
-> ✦ Ver tus ${global.moneda} en la cartera.
+> ✦ Ver tus ${moneda} en la cartera.
 ᰔᩚ *#banco • #bank*
-> ✦ Ver tus ${global.moneda} en el banco.
+> ✦ Ver tus ${moneda} en el banco.
 ᰔᩚ *#deposit • #depositar • #d*
-> ✦ Deposita tus ${global.moneda} al banco.
+> ✦ Deposita tus ${moneda} al banco.
 ᰔᩚ *#with • #retirar • #withdraw*
-> ✦ Retira tus ${global.moneda} del banco.
+> ✦ Retira tus ${moneda} del banco.
 ᰔᩚ *#transfer • #pay*
-> ✦ Transfiere ${global.moneda} o XP a otros usuarios.
+> ✦ Transfiere ${moneda} o XP a otros usuarios.
 ᰔᩚ *#miming • #minar • #mine*
 > ✦ Trabaja como minero y recolecta recursos.
 ᰔᩚ *#buyall • #buy*
-> ✦ Compra ${global.moneda} con tu XP.
+> ✦ Compra ${moneda} con tu XP.
 ᰔᩚ *#daily • #diario*
 > ✦ Reclama tu recompensa diaria.
 ᰔᩚ *#cofre*
@@ -180,11 +180,11 @@ let handler = async (m, { conn, args }) => {
 ᰔᩚ *#monthly • #mensual*
 > ✦ Reclama tu recompensa mensual.
 ᰔᩚ *#steal • #robar • #rob*
-> ✦ Intenta robarle ${global.moneda} a alguien.
+> ✦ Intenta robarle ${moneda} a alguien.
 ᰔᩚ *#robarxp • #robxp*
 > ✦ Intenta robar XP a un usuario.
 ᰔᩚ *#eboard • #baltop*
-> ✦ Ver el ranking de usuarios con más ${global.moneda}.
+> ✦ Ver el ranking de usuarios con más ${moneda}.
 ᰔᩚ *#aventura • #adventure*
 > ✦ Aventúrate en un nuevo reino y recolecta recursos.
 ᰔᩚ *#curar • #heal*
@@ -194,7 +194,7 @@ let handler = async (m, { conn, args }) => {
 ᰔᩚ *#inv • #inventario*
 > ✦ Ver tu inventario con todos tus ítems.
 ᰔᩚ *#mazmorra • #explorar*
-> ✦ Explorar mazmorras para ganar ${global.moneda}.
+> ✦ Explorar mazmorras para ganar ${moneda}.
 ᰔᩚ *#halloween*
 > ✦ Reclama tu dulce o truco (Solo en Halloween).
 ᰔᩚ *#christmas • #navidad*
@@ -303,7 +303,7 @@ let handler = async (m, { conn, args }) => {
 > ✦ Ver tu nivel y experiencia actual.
 ᰔᩚ *#comprarpremium • #premium*
 > ✦ Compra un pase premium para usar el bot sin límites.
-ᰔᩚ *#confesiones • #confesar*
+ᰔᩚ #confesiones • #confesar*
 > ✦ Confiesa tus sentimientos a alguien de manera anonima.
 
 ✐  •/• \`Grupos\` •/•
@@ -410,4 +410,117 @@ let handler = async (m, { conn, args }) => {
 ᰔᩚ *#kill* + <mencion>
 > ✦ Toma tu arma y mata a alguien
 ᰔᩚ *#kiss • #besar* • #kiss2 + <mencion>
->
+> ✦ Dar un beso
+ᰔᩚ *#laugh* + <mencion>
+> ✦ Reírte de algo o alguien
+ᰔᩚ *#lick* + <mencion>
+> ✦ Lamer a alguien
+ᰔᩚ *#love • #amor* + <mencion>
+> ✦ Sentirse enamorado
+ᰔᩚ *#pat* + <mencion>
+> ✦ Acaricia a alguien
+ᰔᩚ *#poke* + <mencion>
+> ✦ Picar a alguien
+ᰔᩚ *#pout* + <mencion>
+> ✦ Hacer pucheros
+ᰔᩚ *#punch* + <mencion>
+> ✦ Dar un puñetazo
+ᰔᩚ *#run* + <mencion>
+> ✦ Correr
+ᰔᩚ *#sad • #triste* + <mencion>
+> ✦ Expresar tristeza
+ᰔᩚ *#scared* + <mencion>
+> ✦ Estar asustado
+ᰔᩚ *#seduce* + <mencion>
+> ✦ Seducir a alguien
+ᰔᩚ *#shy • #timido* + <mencion>
+> ✦ Sentir timidez
+ᰔᩚ *#slap* + <mencion>
+> ✦ Dar una bofetada
+ᰔᩚ *#dias • #days*
+> ✦ Darle los buenos días a alguien 
+ᰔᩚ *#noches • #nights*
+> ✦ Darle las buenas noches a alguien 
+ᰔᩚ *#sleep* + <mencion>
+> ✦ Tumbarte a dormir
+ᰔᩚ *#smoke* + <mencion>
+> ✦ Fumar
+ᰔᩚ *#think* + <mencion>
+> ✦ Pensar en algo
+
+✐  •/• \`NSFW\` •/•
+
+🌸 Comandos NSFW (Contenido para adultos). 
+
+ᰔᩚ *#anal* + <mencion>
+> ✦ Hacer un anal
+ᰔᩚ *#waifu*
+> ✦ Buscá una waifu aleatorio.
+ᰔᩚ *#bath* + <mencion>
+> ✦ Bañarse
+ᰔᩚ *#blowjob • #mamada • #bj* + <mencion>
+> ✦ Dar una mamada
+ᰔᩚ *#boobjob* + <mencion>
+> ✦ Hacer una rusa
+ᰔᩚ *#cum* + <mencion>
+> ✦ Venirse en alguien.
+ᰔᩚ *#fap* + <mencion>
+> ✦ Hacerse una paja
+ᰔᩚ *#ppcouple • #ppcp*
+> ✦ Genera imagenes para amistades o parejas.
+ᰔᩚ *#footjob* + <mencion>
+> ✦ Hacer una paja con los pies
+ᰔᩚ *#fuck • #coger • #fuck2* + <mencion>
+> ✦ Follarte a alguien
+ᰔᩚ *#cafe • #coffe*
+> ✦ Tomate un cafecito con alguien
+ᰔᩚ *#violar • #perra + <mencion>
+> ✦ Viola a alguien
+ᰔᩚ *#grabboobs* + <mencion>
+> ✦ Agarrrar tetas
+ᰔᩚ *#grop* + <mencion>
+> ✦ Manosear a alguien
+ᰔᩚ *#lickpussy* + <mencion>
+> ✦ Lamer un coño
+ᰔᩚ *#rule34 • #r34* + [Tags]
+> ✦ Buscar imagenes en Rule34
+ᰔᩚ *#sixnine • #69* + <mencion>
+> ✦ Haz un 69 con alguien
+ᰔᩚ *#spank • #nalgada* + <mencion>
+> ✦ Dar una nalgada
+ᰔᩚ *#suckboobs* + <mencion>
+> ✦ Chupar tetas
+ᰔᩚ *#undress • #encuerar* + <mencion>
+> ✦ Desnudar a alguien
+ᰔᩚ *#yuri • #tijeras* + <mencion>
+> ✦ Hacer tijeras.
+  `.trim();
+
+  await conn.sendMessage(m.chat, { 
+      text: txt,
+      contextInfo: {
+          mentionedJid: [m.sender, userId],
+          false: {
+              newsletterJid: channelRD.id,
+              newsletterName: channelRD.name,
+              serverMessageId: -1,
+          },
+          forwardingScore: 999,
+          externalAdReply: {
+              title: botname,
+              body: textbot,
+              thumbnailUrl: banner,
+              mediaType: 1,
+              showAdAttribution: true,
+              renderLargerThumbnail: true,
+          },
+      },
+  }, { quoted: m });
+
+};
+
+handler.help = ['menu'];
+handler.tags = ['main'];
+handler.command = ['menu', 'menú', 'help', 'ayuda'];
+
+export default handler;
