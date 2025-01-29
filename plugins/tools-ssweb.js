@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let handler = async (m, { conn, command, args }) => {
-if (!args[0]) return conn.reply(m.chat, '🍡 *Ingrese el Link de una página.*', m, rcanal)
+if (!args[0]) return conn.reply(m.chat, '🍡 *Ingrese el Link de una página.*', m, m)
 try {
 await m.react(rwait)
 conn.reply(m.chat, '🍡 Buscando su información....', m, {
