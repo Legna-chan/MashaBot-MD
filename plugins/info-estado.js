@@ -12,7 +12,17 @@ setTimeout(resolve, 1000)
 }) * 1000
 }
 let muptime = clockString(_muptime)
-let users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
+/ Asumiendo que muptime es una variable que se quiere asignar
+let muptime = clockString(_muptime);
+
+// Aseguramos que global.conns y ws estén definidos
+if (global.conns && Array.isArray(global.conns) && typeof ws !== 'undefined') {
+    let users = [...new Set(
+        global.conns
+            .filter(conn => 
+                conn.user && 
+                conn.ws && 
+                conn.ws
 const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
 const totalUsers = users.length;
