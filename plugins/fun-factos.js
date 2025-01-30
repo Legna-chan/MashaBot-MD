@@ -9,7 +9,7 @@ body: dev,
 previewType: 0, thumbnail: icons,
 sourceUrl: m }}})
 
-conn.reply(m.chat, `*\n\n>  "${pickRandom(global.factos)}"\n\n`, m, m)
+conn.reply(m.chat, `\n\n> "${pickRandom(global.factos)}"\n\n`, m, m)
 
 }
 handler.help = ['facto']
