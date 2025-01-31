@@ -1,3 +1,4 @@
+
 import moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
@@ -489,27 +490,26 @@ let handler = async (m, { conn, args }) => {
 
 
   await conn.sendMessage(m.chat, { 
-    text: txt,
-    contextInfo: {
-        mentionedJid: [m.sender, userId],
-        // Elimina o comenta las siguientes líneas para quitar el reenviado
-        // isForwarded: true,
-        // forwardedNewsletterMessageInfo: {
-        //     newsletterJid: channelRD.id,
-        //     newsletterName: channelRD.name,
-        //     serverMessageId: -1,
-        // },
-        // forwardingScore: 999,
-        // externalAdReply: {
-        //     title: botname,
-        //     body: textbot,
-        //     thumbnailUrl: banner,
-        //     mediaType: 1,
-        //     showAdAttribution: true,
-        //     renderLargerThumbnail: true,
-        // },
-    },
-}, { quoted: m });
+      text: txt,
+      contextInfo: {
+          mentionedJid: [m.sender, userId],
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
+              newsletterJid: channelRD.id,
+              newsletterName: channelRD.name,
+              serverMessageId: -1,
+          },
+          forwardingScore: 999,
+          externalAdReply: {
+              title: botname,
+              body: textbot,
+              thumbnailUrl: banner,
+              mediaType: 1,
+              showAdAttribution: true,
+              renderLargerThumbnail: true,
+          },
+      },
+  }, { quoted: m });
 
 };
 
