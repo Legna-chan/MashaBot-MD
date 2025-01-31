@@ -24,7 +24,7 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: '> Pruebas xdxd
+  before: 'xcecc'
 
 Holis *%name* soy satou (≧σ≦)
 
