@@ -1,12 +1,12 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
     conn.menfess = conn.menfess ? conn.menfess : {};
-    if (!text) throw m.reply(`*🍬 Ejemplo:*\n\n${usedPrefix + command} numero mensaje\n\n*🍭 Uso:* ${usedPrefix + command} ${m.sender.split`@`[0]} Hola.`);
+    if (!text) throw m.reply(`*🍡 Ejemplo:*\n\n${usedPrefix + command} numero mensaje\n\n*🪷 Uso:* ${usedPrefix + command} ${m.sender.split`@`[0]} Hola.`);
     
     let split = text.trim().split(/ (.+)/); 
     let jid = split[0]; 
     let pesan = split[1]; 
 
-    if (!jid || !pesan) throw m.reply(`*🍬 Ejemplo:*\n\n${usedPrefix + command} numero mensaje\n\n*🍭 Uso:* ${usedPrefix + command} ${m.sender.split`@`[0]} Hola.`);
+    if (!jid || !pesan) throw m.reply(`*🍡 Ejemplo:*\n\n${usedPrefix + command} numero mensaje\n\n*🪷 Uso:* ${usedPrefix + command} ${m.sender.split`@`[0]} Hola.`);
     
     jid = jid.replace(/[^0-9]/g, '') + '@s.whatsapp.net'; 
     let data = (await conn.onWhatsApp(jid))[0] || {}; 
@@ -45,12 +45,12 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                 pesan: pesan,
                 status: false 
             };
-            return conn.reply(m.chat, '*🍬 Respuesta enviada con éxito.*\n*IDENTIFICADOR:*' + ` *${id}*`, m, fake);
+            return conn.reply(m.chat, '*🍡 Respuesta enviada con éxito.*\n*IDENTIFICADOR:*' + ` *${id}*`, m, m);
         }
         
     } catch (e) {
         console.error(e);
-        m.reply('⚠️ Ocurrió un error al enviar la respuesta.');
+        m.reply('🪷 Ocurrió un error al enviar la respuesta.');
     }
 }
 
