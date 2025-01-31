@@ -26,6 +26,9 @@ let tags = {
   'mods': '𝙼𝙾𝙳𝚂', 
 }
 
+const defaultMenu = {
+  before: `
+
 Holis *%name* soy satou (≧σ≦)
 
 ╭──〔  𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾  〕
