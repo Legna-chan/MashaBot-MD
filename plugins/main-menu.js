@@ -276,10 +276,6 @@ let handler = async (m, { conn, args }) => {
 > ✦ Elimina tu registro del bot.
 ᰔᩚ *#profile*
 > ✦ Muestra tu perfil de usuario.
-ᰔᩚ *#marry* [mension / etiquetar]
-> ✦ Propón matrimonio a otro usuario.
-ᰔᩚ *#divorce*
-> ✦ Divorciarte de tu pareja.
 ᰔᩚ *#setgenre • #setgenero*
 > ✦ Establece tu género en el perfil del bot.
 ᰔᩚ *#delgenre • #delgenero*
