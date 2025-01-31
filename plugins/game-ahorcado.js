@@ -36,7 +36,7 @@ return dibujo.slice(0, intentosMaximos - intentos).join("\n")
 function juegoTerminado(sender, mensaje, palabra, letrasAdivinadas, intentos) {
     if (intentos === 0) {
         gam.delete(sender);
-        return `❌ ¡Perdiste! La palabra correcta era: ${palabra}\n\n${mostrarAhorcado(intentos)}`;
+        return `☄︎ ¡Perdiste! La palabra correcta era: ${palabra}\n\n${mostrarAhorcado(intentos)}`;
     } else if (!mensaje.includes("_")) {
         let expGanada = Math.floor(Math.random() * 300); //fáciles
         if (palabra.length >= 8) {
@@ -44,7 +44,7 @@ function juegoTerminado(sender, mensaje, palabra, letrasAdivinadas, intentos) {
         }
         global.db.data.users[sender].exp += expGanada;
         gam.delete(sender);
-        return `¡Que pro Ganaste 🥳! Adivinaste la palabra "${palabra}".\n\n*Has ganado:* ${expGanada} Exp.`;
+        return `¡Que pro Ganaste 🪷! Adivinaste la palabra "${palabra}".\n\n*Has ganado:* ${expGanada} Exp.`;
     } else {
         return `${mostrarAhorcado(intentos)}\n\n${mensaje}`;
     }
