@@ -495,11 +495,13 @@ let handler = async (m, { conn, args }) => {
 > ✦ Hacer tijeras.
   `.trim();
 
+  
   await conn.sendMessage(m.chat, { 
       text: txt,
       contextInfo: {
           mentionedJid: [m.sender, userId],
-          false: {
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
               newsletterJid: channelRD.id,
               newsletterName: channelRD.name,
               serverMessageId: -1,
