@@ -1,22 +1,29 @@
-  
-import {googleImage} from '@bochilteam/scraper';
-const handler = async (m, {conn, text, usedPrefix, command}) => {
-if (!text) return conn.reply(m.chat, `*🍡 Uso correcto > ${usedPrefix + command} Sagiri Izuki*`, m, m);
-conn.reply(m.chat, '🪷 *Descargando su imagen...*', m, {
-contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-title: packname,
-body: wm,
-previewType: 0, thumbnail: icons,
-sourceUrl: channel }}})
-const res = await googleImage(text);
-const image = await res.getRandom();
-const link = image;
-const messages = [['Imagen 1', dev, await res.getRandom(),
-[[]], [[]], [[]], [[]]], ['Imagen 2', dev, await res.getRandom(), [[]], [[]], [[]], [[]]], ['Imagen 2', dev, await res.getRandom(), [[]], [[]], [[]], [[]]], ['Imagen 4', dev, await res.getRandom(), [[]], [[]], [[]], [[]]]]
-await conn.sendCarousel(m.chat, `🍡 Resultado de ${text}`, '🔎 Imagen - Descargas', null, messages, m);
-};
-handler.help = ['imagen <query>'];
-handler.tags = ['buscador', 'tools', 'descargas'];
-handler.command = ['image', 'imagen'];
-handler.register = true;
+import fetch from 'node-fetch';
+
+let handler = async(m, { conn, text, usedPrefix, command }) => {
+
+if (!text) return m.reply('🍡 Ingrese Un Texto Para Buscar Una Imagen');
+
+try {
+let api = `https://api.dorratz.com/v3/ai-image?prompt=${text}`;
+let response = await fetch(api);
+let json = await response.json();
+let res = json.data;
+
+m.react('🕑');
+let txt = `> *Resultado De: ${text}*`;
+let img = res.image_link;
+let link = img;
+
+await conn.sendMessage(m.chat, { image: { url: link }, caption: txt }, {quoted: fkontak});   
+m.react('✅');
+
+} catch (e) {
+m.reply(`Error: ${e.message}`);
+m.react('✖️');
+ }
+}
+
+handler.command = ['imagen', 'image'];
+
 export default handler;
