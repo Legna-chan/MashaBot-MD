@@ -11,7 +11,7 @@ let json = await response.json();
 let res = json.data;
 
 m.react('🕑');
-let txt = `> *Resultado De: ${text}*`;
+let txt = `*Resultado De: ${text}*`;
 let img = res.image_link;
 let link = img;
 
