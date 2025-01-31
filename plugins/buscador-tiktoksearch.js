@@ -3,25 +3,25 @@
 import axios from 'axios'
 
 let HS = async (m, { conn, text }) => {
-if (!text)  return conn.reply(m.chat, `❀ Ingresa el texto de lo que quieras buscar`, m)
+if (!text)  return conn.reply(m.chat, `🍡 Ingresa el texto de lo que quieras buscar`, m)
     
 try {
 let info = await tiktok.search(text)
 let randomvid = Math.floor(Math.random() * info.length)
 let { metadata, estadisticas, audio, author, media } = info[randomvid]
-let HS =  `*[ INFO - VIDEO ]*
+let HS =  `*☄︎ INFO - VIDEO ☄︎*
 - *Titulo :* ${metadata.titulo}
 - *Duracion :* ${metadata.duracion} segundos
 - *Creado :* ${metadata.creado}
 
-*[ INFO - ESTADISTICAS ]*
+*☄︎ INFO - ESTADISTICAS ☄︎*
 - *Reproducciones :* ${estadisticas.reproducciones}
 - *Likes :* ${estadisticas.likes}
 - *Comentarios :* ${estadisticas.comentarios}
 - *Compartidos :* ${estadisticas.compartidos}
 - *Descargas :* ${estadisticas.descargas}
 
-*[ INFO - AUTHOR ]*
+*☄︎ INFO - AUTHOR ☄︎*
 - *name :* ${author.name}
 - *username :* ${author.username}`
 
