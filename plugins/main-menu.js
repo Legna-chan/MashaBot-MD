@@ -48,7 +48,6 @@ Holis *%name* soy satou (≧σ≦)
     header:'•/• %category •/•\n',
   body: '✐%cmd',
   footer: '',
-  after: `> ${dev}`,
 }
 
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
