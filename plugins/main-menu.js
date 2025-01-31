@@ -218,7 +218,7 @@ let handler = async (m, { conn, args }) => {
 > ➩ Apuesta xp contra la bot.
 ✿ *#pvp • #suit*
 > ➩ Comienza un pvp contra otro usuario.
-✿ *#ahorcado
+✿ *#ahorcado*
 > ➩ Juega al juego ahorcado y gana exp.
 ✿ *#buscarpalabra • #sopa*
 > ➩ Encuentra la palabra oculta en el juego sopa de letras.
