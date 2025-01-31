@@ -36,11 +36,7 @@ let handler = async (m, { conn, args }) => {
 ✿ *#links • #grupos*
 > ➩ Ver los enlaces oficiales de la Bot.
 ✿ *#infobot • #infobot*
-> ➩ Ver la información completa de la Bot.
-✿ *#sug • #newcommand*
-> ➩ Sugiere un nuevo comando.
-✿ *#solicitud • #sugerencia*
-> ➩ Envia una sugerencia al canal de la Bot.
+> ➩ Ver la información completa de la Bot. 
 ✿ *#p • #ping*
 > ➩ Ver la velocidad de respuesta del Bot.
 ✿ *#reporte • #reportar*
@@ -55,8 +51,6 @@ let handler = async (m, { conn, args }) => {
 > ➩ Ver todas las funciones de la Bot.
 ✿ *#ds • #fixmsgespera*
 > ➩ Eliminar archivos de sesión innecesarios.
-✿ *#editautoresponder*
-> ➩ Configurar un Prompt personalizado de la Bot.
 
  ✐  •/• \`Buscadores\` •/•
 
