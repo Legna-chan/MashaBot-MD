@@ -298,7 +298,7 @@ let handler = async (m, { conn, args }) => {
 > ✦ Ver tu nivel y experiencia actual.
 ᰔᩚ *#comprarpremium • #premium*
 > ✦ Compra un pase premium para usar el bot sin límites.
-ᰔᩚ #confesiones • #confesar*
+ᰔᩚ *#confesiones • #confesar*
 > ✦ Confiesa tus sentimientos a alguien de manera anonima.
 
 ✐  •/• \`Grupos\` •/•
