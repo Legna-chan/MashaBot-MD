@@ -193,41 +193,54 @@ let handler = async (m, { conn, args }) => {
 
 ☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ gᥲᥴһᥲ ⍴ᥲrᥲ rᥱᥴᥣᥲmᥲr ᥡ ᥴ᥆ᥣᥱᥴᥴі᥆́ᥒᥲr ⍴ᥱrs᥆ᥒᥲȷᥱs.
 
-ᰔᩚ *#rollwaifu • #rw • #roll*
-> ✦ Waifu o husbando aleatorio.
-ᰔᩚ  *#claim • #c • #reclamar*
-> ✦ Reclamar un personaje.
-ᰔᩚ *#harem • #waifus • #claims*
-> ✦ Ver tus personajes reclamados.
-ᰔᩚ *#charimage • #waifuimage • #wimage* 
-> ✦ Ver una imagen aleatoria de un personaje.
-ᰔᩚ *#charinfo • #winfo • #waifuinfo*
-> ✦ Ver información de un personaje.
-ᰔᩚ *#givechar • #givewaifu • #regalar*
-> ✦ Regalar un personaje a otro usuario.
-ᰔᩚ *#vote • #votar*
-> ✦ Votar por un personaje para subir su valor.
-ᰔᩚ *#waifusboard • #waifustop • #topwaifus*
-> ✦ Ver el top de personajes con mayor valor.
+✿ *#rollwaifu • #rw • #roll*
+> ➩ Waifu o husbando aleatorio.
+✿  *#claim • #c • #reclamar*
+> ➩ Reclamar un personaje.
+✿ *#harem • #waifus • #claims*
+> ➩ Ver tus personajes reclamados.
+✿ *#charimage • #waifuimage • #wimage* 
+> ➩ Ver una imagen aleatoria de un personaje.
+✿ *#charinfo • #winfo • #waifuinfo*
+> ➩ Ver información de un personaje.
+✿ *#givechar • #givewaifu • #regalar*
+> ➩ Regalar un personaje a otro usuario.
+✿ *#vote • #votar*
+> ➩ Votar por un personaje para subir su valor.
+✿ *#waifusboard • #waifustop • #topwaifus*
+> ➩ Ver el top de personajes con mayor valor.
+
+✐  •/• \`Games\` •/•
+
+☄︎ ᥴ᥆mᥲᥒძ᥆s ⍴ᥲrᥲ ȷᥙgᥲr ᥴ᥆ᥒ𝗍rᥲ ᥣᥲ ᑲ᥆𝗍 ᥆ ᥴ᥆ᥒ 𝗍ᥙs ᥲmіg᥆s.
+
+✿ *#ppt*
+> ➩ Apuesta xp contra la bot.
+✿ *#pvp • #suit*
+> ➩ Comienza un pvp contra otro usuario.
+✿ *#ahorcado
+> ➩ Juega al juego ahorcado y gana exp.
+✿ *#buscarpalabra • #sopa*
+> ➩ Encuentra la palabra oculta en el juego sopa de letras.
 
 ✐  •/• \`Stickers\` •/•
 
 ☄︎ ᥴ᥆mᥲᥒძ᥆s ⍴ᥲrᥲ ᥴrᥱᥲᥴі᥆ᥒᥱs ძᥱ s𝗍іᥴkᥱrs ᥱ𝗍ᥴ.
 
-ᰔᩚ *#sticker • #s*
-> ✦ Crea stickers de (imagen/video)
-ᰔᩚ *#pfp • #getpic*
-> ✦ Obtén la foto de perfil de un usuario.
-ᰔᩚ *#qc*
-> ✦ Crea stickers con texto o de un usuario.
-ᰔᩚ *#toimg • #img*
-> ✦ Convierte stickers en imagen.
-ᰔᩚ *#brat*︎ 
-> ✦ Crea stickers con texto.
-ᰔᩚ *#emojimix*
-> ✦ Fuciona 2 emojis para crear un sticker.
-ᰔᩚ *#wm*
-> ✦ Cambia el nombre de los stickers.
+✿ *#sticker • #s*
+> ➩ Crea stickers de (imagen/video)
+✿ *#pfp • #getpic*
+> ➩ Obtén la foto de perfil de un usuario.
+✿ *#qc*
+> ➩ Crea stickers con texto o de un usuario.
+✿ *#toimg • #img*
+> ➩ Convierte stickers en imagen.
+✿ *#brat*︎ 
+> ➩ Crea stickers con texto.
+✿ *#emojimix*
+> ➩ Fuciona 2 emojis para crear un sticker.
+✿ *#wm*
+> ➩ Cambia el nombre de los stickers.
 
 ✐  •/• \`Herramientas\` •/•
 
