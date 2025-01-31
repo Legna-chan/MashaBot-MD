@@ -1,3 +1,5 @@
+// créditos del codigo al canal HasumiFreeCodes
+
 import axios from 'axios'
 
 let HS = async (m, { conn, text }) => {
