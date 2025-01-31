@@ -1,4 +1,7 @@
-import moment from 'moment-timezone';
+import { promises } from 'fs'
+import { join } from 'path'
+import fetch from 'node-fetch'
+import { xpRange } from '../lib/levelling.js'
 
 let tags = {
   'main': '𝙸𝙽𝙵𝙾',
@@ -22,9 +25,6 @@ let tags = {
   'jadibot': '𝙹𝙰𝙳𝙸𝙱𝙾𝚃', 
   'mods': '𝙼𝙾𝙳𝚂', 
 }
-
-const defaultMenu = {
-  before: `*꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦*
 
 Holis *%name* soy satou (≧σ≦)
 
