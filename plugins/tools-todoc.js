@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 let q = m.quoted || m
 let mime = (q.msg || q).mimetype || ''
 if (!m.quoted) return conn.reply(m.chat,  `🍡 Etiqueta el *Video o Audio* que desea convertir en documento.`, m, rcanal)
-if(!text) return conn.reply(m.chat, `🦄 Ingresa el nombre para guardar el documento.`, m, rcanal)
+if(!text) return conn.reply(m.chat, `🪷 Ingresa el nombre para guardar el documento.`, m, rcanal)
 if (!/audio|video/.test(mime)) return conn.reply(m.chat,  `🍡 Etiqueta el *Video o Audio* que desea convertir en documento.`, m, rcanal)
 let media = await q.download?.()
 if (!media) throw m.react('✖️')
