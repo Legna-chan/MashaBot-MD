@@ -74,8 +74,6 @@ let handler = async (m, { conn, args }) => {
 > ➩ Buscador de usuarios de GitHub.
 ✿ *#cuevana • #cuevanasearch*
 > ➩ Buscador de películas/series por Cuevana.
-ᰔᩚ *#google*
-> ➩ Realiza búsquedas por Google.
 ✿ *#pin • #pinterest*
 > ➩ Buscador de imagenes de Pinterest.
 ✿ *#imagen • #image*
