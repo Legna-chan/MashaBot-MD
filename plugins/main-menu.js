@@ -33,8 +33,6 @@ let handler = async (m, { conn, args }) => {
 > ➩ Link del repositorio oficial de la Bot
 ✿ *#creador*
 > ➩ Contacto del creador de la Bot.
-✿ *#status • #estado*
-> ➩ Ver el estado actual de la Bot.
 ✿ *#links • #grupos*
 > ➩ Ver los enlaces oficiales de la Bot.
 ✿ *#infobot • #infobot*
