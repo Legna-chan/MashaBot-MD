@@ -31,7 +31,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
                     mediaType: 1,
                     renderLargerThumbnail: true,
                     thumbnailUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIyz1dMPkZuNleUyfXPMsltHwKKdVddTf4-A&usqp=CAU',
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb3yy64LI8YSrvdyq00R'
                 }
             }
         });
