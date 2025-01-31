@@ -1,11 +1,11 @@
 const handler = async (m, {conn, isAdmin, groupMetadata }) => {
-  if (isAdmin) return m.reply('🍭 *Tu ya eres admin.*');
+  if (isAdmin) return m.reply('🍡 *Ya eras admin :(.*');
   try {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
   await m.react(done)
-   m.reply('🍬 *Ya te di admin.*');
+   m.reply('🍡 *Ya te di admin :3.*');
   } catch {
-    m.reply('⚠️ Ocurrio un error.');
+    m.reply('🪷 Ocurrio un error.');
   }
 };
 handler.tags = ['owner'];

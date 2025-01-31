@@ -41,7 +41,7 @@ let handler = async (m, { conn, args }) => {
     const userId = m.sender;
 
     if (args.length < 2) {
-        await conn.reply(m.chat, '🦄 Debes especificar el nombre del personaje y mencionar a quien quieras regalarlo.', m);
+        await conn.reply(m.chat, '☄︎ Debes especificar el nombre del personaje y mencionar a quien quieras regalarlo.', m);
         return;
     }
 
@@ -58,7 +58,7 @@ let handler = async (m, { conn, args }) => {
         const character = characters.find(c => c.name.toLowerCase() === characterName && c.user === userId);
 
         if (!character) {
-            await conn.reply(m.chat, `🦄 *${characterName}* no está reclamado por ti.`, m);
+            await conn.reply(m.chat, `☄︎ *${characterName}* no está reclamado por ti.`, m);
             return;
         }
 
@@ -74,7 +74,7 @@ let handler = async (m, { conn, args }) => {
         harem.push(userEntry);
         await saveHarem(harem);
 
-        await conn.reply(m.chat, `🦄 *${character.name}* ha sido regalado a ${mentionedUser}!`, m);
+        await conn.reply(m.chat, `☄︎ *${character.name}* ha sido regalado a ${mentionedUser}!`, m);
     } catch (error) {
         await conn.reply(m.chat, `✘ Error al regalar el personaje: ${error.message}`, m);
     }
