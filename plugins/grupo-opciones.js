@@ -5,7 +5,6 @@ const handler = async (m, { conn, participants, groupMetadata }) => {
   
 ◈ Welcome: ${welcome ? 'Activado' : 'Desactivado'} 
 ◈ Antibot: ${antiBot ? 'Activado' : 'Desactivado'} 
-◈ Antisubbots: ${antiBot2 ? 'Activado' : 'Desactivado'}
 ◈ Autoaceptar: ${autoAceptar ? 'Activado' : 'Desactivado'} 
 ◈ Autorechazar: ${autoRechazar ? 'Activado' : 'Desactivado'} 
 ◈ Autoresponder: ${autoresponder ? 'Activado' : 'Desactivado'}
@@ -14,7 +13,6 @@ const handler = async (m, { conn, participants, groupMetadata }) => {
 ◈ Nsfw: ${nsfw ? 'Activado' : 'Desactivado'} 
 ◈ Detect: ${detect ? 'Activado' : 'Desactivado'} 
 ◈ Antilink: ${antiLink ? 'Activado' : 'Desactivado'} 
-◈ Antitoxic: ${antitoxic ? 'Activado' : 'Desactivado'} 
 ◈ Antitraba: ${antiTraba ? 'Activado' : 'Desactivado'}
 ◈ antifake: ${antifake ? 'Activado' : 'Desactivado'}
 
