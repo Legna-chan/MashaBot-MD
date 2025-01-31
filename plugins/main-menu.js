@@ -1,4 +1,4 @@
- import moment from 'moment-timezone';
+import moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
   let userId = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
@@ -33,8 +33,6 @@ let handler = async (m, { conn, args }) => {
 > ➩ Link del repositorio oficial de la Bot
 ✿ *#creador*
 > ➩ Contacto del creador de la Bot.
-✿ *#status • #estado*
-> ➩ Ver el estado actual de la Bot.
 ✿ *#links • #grupos*
 > ➩ Ver los enlaces oficiales de la Bot.
 ✿ *#infobot • #infobot*
@@ -74,8 +72,6 @@ let handler = async (m, { conn, args }) => {
 > ➩ Buscador de usuarios de GitHub.
 ✿ *#cuevana • #cuevanasearch*
 > ➩ Buscador de películas/series por Cuevana.
-ᰔᩚ *#google*
-> ➩ Realiza búsquedas por Google.
 ✿ *#pin • #pinterest*
 > ➩ Buscador de imagenes de Pinterest.
 ✿ *#imagen • #image*
@@ -86,7 +82,7 @@ let handler = async (m, { conn, args }) => {
 > ➩ Buscador de capítulos de #animesearch.
 ✿ *#infoanime*
 > ➩ Buscador de información de anime/manga.
-✿ #xnxxsearch • #xnxxs*
+✿ *#xnxxsearch • #xnxxs*
 > ➩ Buscador de vídeos de Xnxx.
 ✿ *#xvsearch • #xvideossearch*
 > ➩ Buscador de vídeos de Xvideos.
@@ -99,44 +95,44 @@ let handler = async (m, { conn, args }) => {
 
 ☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ ძᥱsᥴᥲrgᥲs ⍴ᥲrᥲ ᥎ᥲrі᥆s ᥲrᥴһі᥎᥆s.
 
-ᰔᩚ *#tiktok • #tt*
-> ✦ Descarga videos de TikTok.
-ᰔᩚ *#mediafire • #mf*
-> ✦ Descargar un archivo de MediaFire.
-ᰔᩚ *#pinvid • #pinvideo* + [enlacé]
-> ✦ Descargar vídeos de Pinterest. 
-ᰔᩚ *#mega • #mg* + [enlacé]
-> ✦ Descargar un archivo de MEGA.
-ᰔᩚ *#play • #play2*
-> ✦ Descarga música/video de YouTube.
-ᰔᩚ *#ytmp3 • #ytmp4*
-> ✦ Descarga música/video de YouTube mediante url.
-ᰔᩚ *#fb • #facebook*
-> ✦ Descarga videos de Facebook.
-ᰔᩚ *#twitter • #x* + [Link]
-> ✦ Descargar un video de Twitter/X
-ᰔᩚ *#ig • #instagram*
-> ✦ Descarga contenido de Instagram.
-ᰔᩚ *#tts • #tiktoks* + [busqueda]
-> ✦ Buscar videos de tiktok 
-ᰔᩚ *#terabox • #tb* + [enlace]
-> ✦ Descargar archivos por Terabox.
-ᰔᩚ *#gdrive • #drive* + [enlace]
-> ✦ Descargar archivos por Google Drive.
-ᰔᩚ *#ttimg • #ttmp3* + <url>
-> ✦ Descarga fotos/audios de tiktok. 
-ᰔᩚ *#gitclone* + <url> 
-> ✦ Descarga un repositorio de github.
-ᰔᩚ *#xvideosdl*
-> ✦ Descarga videos porno de (Xvideos). 
-ᰔᩚ *#xnxxdl*
-> ✦ Descarga videos porno de (xnxx).
-ᰔᩚ *#tiktokrandom • #ttrandom*
-> ✦ Descarga un video aleatorio de tiktok.
-ᰔᩚ *#npmdl • #npmdownloader*
-> ✦ Descarga paquetes de NPMJs.
-ᰔᩚ *#animelinks • #animedl*
-> ✦ Descarga Links disponibles de descargas.
+✿ *#tiktok • #tt*
+> ➩ Descarga videos de TikTok.
+✿ *#mediafire • #mf*
+> ➩ Descargar un archivo de MediaFire.
+✿ *#pinvid • #pinvideo* + [enlacé]
+> ➩ Descargar vídeos de Pinterest. 
+✿ *#mega • #mg* + [enlacé]
+> ➩ Descargar un archivo de MEGA.
+✿ *#play • #play2*
+> ➩ Descarga música/video de YouTube.
+✿ *#ytmp3 • #ytmp4*
+> ➩ Descarga música/video de YouTube mediante url.
+✿ *#fb • #facebook*
+> ➩ Descarga videos de Facebook.
+✿ *#twitter • #x* + [Link]
+> ➩ Descargar un video de Twitter/X
+✿ *#ig • #instagram*
+> ➩ Descarga contenido de Instagram.
+✿ *#tts • #tiktoks* + [busqueda]
+> ➩ Buscar videos de tiktok 
+✿ *#terabox • #tb* + [enlace]
+> ➩ Descargar archivos por Terabox.
+✿ *#gdrive • #drive* + [enlace]
+> ➩ Descargar archivos por Google Drive.
+✿ *#ttimg • #ttmp3* + <url>
+> ➩ Descarga fotos/audios de tiktok. 
+✿ *#gitclone* + <url> 
+> ➩ Descarga un repositorio de github.
+✿ *#xvideosdl*
+> ➩ Descarga videos porno de (Xvideos). 
+✿ *#xnxxdl*
+> ➩ Descarga videos porno de (xnxx).
+✿ *#tiktokrandom • #ttrandom*
+> ➩ Descarga un video aleatorio de tiktok.
+✿ *#npmdl • #npmdownloader*
+> ➩ Descarga paquetes de NPMJs.
+✿ *#animelinks • #animedl*
+> ➩ Descarga Links disponibles de descargas.
 
 ✐  •/• \`Economia-rpg\` •/•
 
@@ -280,10 +276,6 @@ let handler = async (m, { conn, args }) => {
 > ✦ Elimina tu registro del bot.
 ᰔᩚ *#profile*
 > ✦ Muestra tu perfil de usuario.
-ᰔᩚ *#marry* [mension / etiquetar]
-> ✦ Propón matrimonio a otro usuario.
-ᰔᩚ *#divorce*
-> ✦ Divorciarte de tu pareja.
 ᰔᩚ *#setgenre • #setgenero*
 > ✦ Establece tu género en el perfil del bot.
 ᰔᩚ *#delgenre • #delgenero*
@@ -302,7 +294,7 @@ let handler = async (m, { conn, args }) => {
 > ✦ Ver tu nivel y experiencia actual.
 ᰔᩚ *#comprarpremium • #premium*
 > ✦ Compra un pase premium para usar el bot sin límites.
-ᰔᩚ #confesiones • #confesar*
+ᰔᩚ *#confesiones • #confesar*
 > ✦ Confiesa tus sentimientos a alguien de manera anonima.
 
 ✐  •/• \`Grupos\` •/•
@@ -495,11 +487,13 @@ let handler = async (m, { conn, args }) => {
 > ✦ Hacer tijeras.
   `.trim();
 
+
   await conn.sendMessage(m.chat, { 
       text: txt,
       contextInfo: {
           mentionedJid: [m.sender, userId],
-          false: {
+          isForwarded: true,
+          forwardedNewsletterMessageInfo: {
               newsletterJid: channelRD.id,
               newsletterName: channelRD.name,
               serverMessageId: -1,

@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
         const img = await q.download?.()
         if (!img) {
             console.error('✿ Error: No image buffer available')
-            return conn.reply(m.chat, '✘ ChatGpT no pudo descargar la imagen.', m, fake)
+            return conn.reply(m.chat, '✘ ChatGpT no pudo descargar la imagen.', m,  m)
         }
         const content = '✿ ¿Qué se observa en la imagen?'
         try {
@@ -22,11 +22,11 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
             await conn.reply(m.chat, description, m, fake)
         } catch {
             await m.react(error)
-            await conn.reply(m.chat, '✘ ChatGpT no pudo analizar la imagen.', m, fake)
+            await conn.reply(m.chat, '✘ ChatGpT no pudo analizar la imagen.', m, m)
         }
     } else {
         if (!text) { 
-            return conn.reply(m.chat, `🍬 Ingrese una petición para que  ChatGpT lo responda.`, m)
+            return conn.reply(m.chat, `🍡 Ingrese una petición para que  ChatGpT lo responda.`, m)
         }
         await m.react(rwait)
         try {
@@ -53,7 +53,7 @@ await conn.sendMessage(m.chat, {
             await m.react('👾')
         } catch {
             await m.react(error)
-            await conn.reply(m.chat, '✘ ChatGpT no puede responder a esa pregunta.', m, fake)
+            await conn.reply(m.chat, '✘ ChatGpT no puede responder a esa pregunta.', m, m)
         }
     }
 }
