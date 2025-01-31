@@ -99,44 +99,44 @@ let handler = async (m, { conn, args }) => {
 
 ☄︎ ᥴ᥆mᥲᥒძ᥆s ძᥱ ძᥱsᥴᥲrgᥲs ⍴ᥲrᥲ ᥎ᥲrі᥆s ᥲrᥴһі᥎᥆s.
 
-ᰔᩚ *#tiktok • #tt*
-> ✦ Descarga videos de TikTok.
-ᰔᩚ *#mediafire • #mf*
-> ✦ Descargar un archivo de MediaFire.
-ᰔᩚ *#pinvid • #pinvideo* + [enlacé]
-> ✦ Descargar vídeos de Pinterest. 
-ᰔᩚ *#mega • #mg* + [enlacé]
-> ✦ Descargar un archivo de MEGA.
-ᰔᩚ *#play • #play2*
-> ✦ Descarga música/video de YouTube.
-ᰔᩚ *#ytmp3 • #ytmp4*
-> ✦ Descarga música/video de YouTube mediante url.
-ᰔᩚ *#fb • #facebook*
-> ✦ Descarga videos de Facebook.
-ᰔᩚ *#twitter • #x* + [Link]
-> ✦ Descargar un video de Twitter/X
-ᰔᩚ *#ig • #instagram*
-> ✦ Descarga contenido de Instagram.
-ᰔᩚ *#tts • #tiktoks* + [busqueda]
-> ✦ Buscar videos de tiktok 
-ᰔᩚ *#terabox • #tb* + [enlace]
-> ✦ Descargar archivos por Terabox.
-ᰔᩚ *#gdrive • #drive* + [enlace]
-> ✦ Descargar archivos por Google Drive.
-ᰔᩚ *#ttimg • #ttmp3* + <url>
-> ✦ Descarga fotos/audios de tiktok. 
-ᰔᩚ *#gitclone* + <url> 
-> ✦ Descarga un repositorio de github.
-ᰔᩚ *#xvideosdl*
-> ✦ Descarga videos porno de (Xvideos). 
-ᰔᩚ *#xnxxdl*
-> ✦ Descarga videos porno de (xnxx).
-ᰔᩚ *#tiktokrandom • #ttrandom*
-> ✦ Descarga un video aleatorio de tiktok.
-ᰔᩚ *#npmdl • #npmdownloader*
-> ✦ Descarga paquetes de NPMJs.
-ᰔᩚ *#animelinks • #animedl*
-> ✦ Descarga Links disponibles de descargas.
+✿ *#tiktok • #tt*
+> ➩ Descarga videos de TikTok.
+✿ *#mediafire • #mf*
+> ➩ Descargar un archivo de MediaFire.
+✿ *#pinvid • #pinvideo* + [enlacé]
+> ➩ Descargar vídeos de Pinterest. 
+✿ *#mega • #mg* + [enlacé]
+> ➩ Descargar un archivo de MEGA.
+✿ *#play • #play2*
+> ➩ Descarga música/video de YouTube.
+✿ *#ytmp3 • #ytmp4*
+> ➩ Descarga música/video de YouTube mediante url.
+✿ *#fb • #facebook*
+> ➩ Descarga videos de Facebook.
+✿ *#twitter • #x* + [Link]
+> ➩ Descargar un video de Twitter/X
+✿ *#ig • #instagram*
+> ➩ Descarga contenido de Instagram.
+✿ *#tts • #tiktoks* + [busqueda]
+> ➩ Buscar videos de tiktok 
+✿ *#terabox • #tb* + [enlace]
+> ➩ Descargar archivos por Terabox.
+✿ *#gdrive • #drive* + [enlace]
+> ➩ Descargar archivos por Google Drive.
+✿ *#ttimg • #ttmp3* + <url>
+> ➩ Descarga fotos/audios de tiktok. 
+✿ *#gitclone* + <url> 
+> ➩ Descarga un repositorio de github.
+✿ *#xvideosdl*
+> ➩ Descarga videos porno de (Xvideos). 
+✿ *#xnxxdl*
+> ➩ Descarga videos porno de (xnxx).
+✿ *#tiktokrandom • #ttrandom*
+> ➩ Descarga un video aleatorio de tiktok.
+✿ *#npmdl • #npmdownloader*
+> ➩ Descarga paquetes de NPMJs.
+✿ *#animelinks • #animedl*
+> ➩ Descarga Links disponibles de descargas.
 
 ✐  •/• \`Economia-rpg\` •/•
 
