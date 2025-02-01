@@ -1,31 +1,28 @@
-import { WAMessageStubType } from '@whiskeysockets/baileys'
+import {WAMessageStubType} from '@whiskeysockets/baileys'
 import fetch from 'node-fetch'
 
-export async function before(m, { conn, participants, groupMetadata }) {
-  if (!m.messageStubType || !m.isGroup) return true
-
-  let who = m.messageStubParameters[0]
-  let taguser = `@${who.split('@')[0]}`
+export async function before(m, {conn, participants, groupMetadata}) {
+  if (!m.messageStubType || !m.isGroup) return !0;
+  let img = imagen1
   let chat = global.db.data.chats[m.chat]
-  let defaultImage = 'https://qu.ax/XRymi.jpg';
 
-  if (chat.welcome) {
-    let img;
-    try {
-      let pp = await conn.profilePictureUrl(who, 'image');
-      img = await (await fetch(pp)).buffer();
-    } catch {
-      img = await (await fetch(defaultImage)).buffer();
-    }
-
-    if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_ADD) {
-      let bienvenida = `🪷 *Bienvenido* a ${groupMetadata.subject}\n ✰ ${taguser}\n${global.welcom1}\n •(=^●ω●^=)• Disfruta tu estadía en el grupo!\n> 🍡 Puedes usar *#ayuda* para ver mi menu.`
-      await conn.sendMessage(m.chat, { image: img, caption: bienvenida, mentions: [who] })
-    } else if (m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_REMOVE || m.messageStubType === WAMessageStubType.GROUP_PARTICIPANT_LEAVE) {
-      let bye = `🍡 *Adiós* De ${groupMetadata.subject}\n ✰ ${taguser}\n${global.welcom2}\n •(=^●ω●^=)• Te esperamos pronto!\n> 🪷 Puedes usar *#ayuda* para ver mi menu.`
-      await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] })
-    }
+  if (chat.welcome && m.messageStubType == 27) {
+    let welcome = ` 「🍭」SatouBot - MD \n「 Bienvenido :3 」\n「 @${m.messageStubParameters[0].split`@`[0]} 」\n「 Bienvenido/a 」\n「 ${groupMetadata.subject} 」\n\n> ✐ Puedes usar *.menu* para ver la lista de comandos.
+> 🜸 https://github.com/Legna-chan`
+await conn.sendMini(m.chat, packname, textbot, welcome, img, img, redes, fkontak)
   }
 
-  return true
-}
+  if (chat.welcome && m.messageStubType == 28) {
+    let bye = ` 「🍭」SatouBot - MD \n「 Adios 」\n「 @${m.messageStubParameters[0].split`@`[0]} 」\n「 Se fue 」\n「 Vuelve pronto :3 」\n\n> ✐ Me podrias dar una estrellita en el repositorio oficial de la bot?
+> 🜸 https://github.com/Legna-chan`
+await conn.sendMini(m.chat, packname, textbot, bye, img, img, redes, fkontak)
+  }
+
+  if (chat.welcome && m.messageStubType == 32) {
+    let kick = `「🍭」SatouBot - MD \n「 Adios 」\n「 @${m.messageStubParameters[0].split`@`[0]} 」\n「 Se fue 」\n「 Vuelve pronto :3」\n\n> ✐ Me podrias dar una estrellita en el repositorio oficial de la bot?
+> 🜸 https://github.com/Legna-chan`  
+await conn.sendMini(m.chat, packname, textbot, kick, img, img, redes, fkontak)
+await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] })
+}}
+
+
