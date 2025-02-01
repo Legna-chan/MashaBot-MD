@@ -441,6 +441,8 @@ let handler = async (m, { conn, args }) => {
 > ✦ Fumar
 ᰔᩚ *#think* + <mencion>
 > ✦ Pensar en algo
+✿ *#hot* + <mencion>
+> ➩ Excitarte por alguien. 
 
 ✐  •/• \`NSFW\` •/•
 
