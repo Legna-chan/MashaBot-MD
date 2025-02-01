@@ -316,10 +316,6 @@ let handler = async (m, { conn, args }) => {
 > ✦  Ver la Informacion del grupo.
 ᰔᩚ *#linea • #listonline*
 > ✦ Ver la lista de los usuarios en linea.
-ᰔᩚ *#setwelcome*
-> ✦ Establecer un mensaje de bienvenida personalizado.
-ᰔᩚ *#setbye*
-> ✦ Establecer un mensaje de despedida personalizado.
 ᰔᩚ *#link*
 > ✦ El bot envia el link del grupo.
 ᰔᩚ *#admins • #admin*
