@@ -79,7 +79,8 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-const { state, saveState, saveCreds } = await import('@whiskeysockets/baileys').then(m => m.useMultiFileAuthState(global.sessions));
+const baileys = await import('@whiskeysockets/baileys');
+const { state, saveState, saveCreds } = await baileys.useMultiFileAuthState(global.sessions);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
 const {version} = await fetchLatestBaileysVersion();
