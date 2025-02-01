@@ -440,9 +440,7 @@ let handler = async (m, { conn, args }) => {
 ᰔᩚ *#smoke* + <mencion>
 > ✦ Fumar
 ᰔᩚ *#think* + <mencion>
-> ✦ Pensar en algo
-✿ *#hot* + <mencion>
-> ➩ Excitarte por alguien. 
+> ✦ Pensar en algo 
 
 ✐  •/• \`NSFW\` •/•
 
@@ -490,6 +488,8 @@ let handler = async (m, { conn, args }) => {
 > ✦ Desnudar a alguien
 ᰔᩚ *#yuri • #tijeras* + <mencion>
 > ✦ Hacer tijeras.
+✿ *#hot* + <mencion>
+> ➩ Excitarte por alguien.
   `.trim();
 
 
