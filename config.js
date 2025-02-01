@@ -56,7 +56,7 @@ global.numcreador = '5216671548329'
 global.moneda = 'SagiriCoins'
 global.banner = 'https://files.catbox.moe/l3edoq.jpg'
 global.catalogo = 'https://files.catbox.moe/gizmm4.jpg'
-global.test = 'https://qu.ax/DPtHb.jpg'
+global.test = 'https://qu.ax/zppMw.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
