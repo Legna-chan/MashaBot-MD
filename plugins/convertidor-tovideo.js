@@ -26,7 +26,7 @@ const handler = async (m, {conn, usedPrefix, command}) => {
         body: dev,
         previewType: 0,
         thumbnail: icons,
-        sourceUrl: channel
+        sourceUrl: m
       }
     }
   });
