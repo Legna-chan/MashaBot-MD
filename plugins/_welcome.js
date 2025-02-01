@@ -27,5 +27,5 @@ await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] })
   }
 
   return true
-}
+
 
