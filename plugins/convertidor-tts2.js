@@ -6,7 +6,7 @@ const handler = async (m, { conn, usedPrefix, command, text, args }) => {
 
   if (!efecto) {
     let voiceList = await getVoiceList();
-    let responseText = `*✿ No haz ingresado un efecto, por favor ingresa un efecto de voz.*\n\n*> Elige uno de los siguientes efectos:*\n`;
+    let responseText = `*✿ No haz ingresado un efecto, por favor ingresa un efecto de voz.*\n\n> Elige uno de los siguientes efectos:\n`;
 
     for (let i = 0, count = 0; count < 100 && i < voiceList.resultado.length; i++) {
       const entry = voiceList.resultado[i];
