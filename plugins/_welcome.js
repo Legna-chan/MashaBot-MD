@@ -22,4 +22,10 @@ await conn.sendLuffy(m.chat, packname, textbot, bye, img, img, redes, fkontak)
     let kick = `「🍭」SatouBot - MD \n「 Adios 」\n「 @${m.messageStubParameters[0].split`@`[0]} 」\n「 Se fue 」\n「 Vuelve pronto :3」\n\n> ✐ Me podrias dar una estrellita en el repositorio oficial de la bot?
 > 🜸 https://github.com/Legna-chan`  
 await conn.sendLuffy(m.chat, packname, textbot, kick, img, img, redes, fkontak)
-}}
+await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] })
+    }
+  }
+
+  return true
+}
+
