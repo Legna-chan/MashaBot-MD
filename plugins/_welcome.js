@@ -23,9 +23,6 @@ await conn.sendLuffy(m.chat, packname, textbot, bye, img, img, redes, fkontak)
 > 🜸 https://github.com/Legna-chan`  
 await conn.sendLuffy(m.chat, packname, textbot, kick, img, img, redes, fkontak)
 await conn.sendMessage(m.chat, { image: img, caption: bye, mentions: [who] })
-    }
-  }
-
-  return true
+]]
 
 
