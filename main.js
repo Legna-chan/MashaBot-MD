@@ -182,7 +182,7 @@ console.log(chalk.bgBlack(chalk.bold.greenBright(`☄︎ Por favor, Ingrese el n
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.greenBright(`☄︎ Por favor, escriba su número de WhatsApp.\n☄🍡 Ejemplo: 52166×××××××\n`)))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.greenBright(`☄︎ Por favor, escriba su número de WhatsApp.\n🍡 Ejemplo: 52166×××××××\n`)))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
 if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
@@ -482,7 +482,7 @@ if (stopped === 'close' || !conn || !conn.user) return
 await purgeOldFiles()
 console.log(chalk.bold.cyanBright(`\n╭» 🟠 ARCHIVOS 🟠\n│→ ARCHIVOS RESIDUALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 10)
 
-_quickTest().then(() => conn.logger.info(chalk.bold(`🍬  H E C H O\n`.trim()))).catch(console.error)
+_quickTest().then(() => conn.logger.info(chalk.bold(`🍡  H E C H O\n`.trim()))).catch(console.error)
 
 async function joinChannels(conn) {
 for (const channelId of Object.values(global.ch)) {
